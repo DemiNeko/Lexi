@@ -40,3 +40,16 @@
 Репозиторий и сайт нельзя считать опубликованными только потому, что эти файлы подготовлены.
 Скрипт публикации сверялся с официальным GitHub CLI / Pages API; его успешный запуск
 и проверка публичного адреса остаются отдельным этапом.
+
+## Kazakh localization regression checks
+
+`npm test` verifies complete Kazakh data for all 181 entries and data-file parity.
+`node tests/browser.cjs` (optional Playwright installation) tests:
+
+- Every Russian/Kazakh answer and English alias; four unambiguous quiz choices.
+- Kazakh character distinctions, case and punctuation normalization.
+- Language switching and persistence, cards, correct/incorrect typing, quizzes,
+  mistake repetition, translated examples and three-language dictionary search.
+- Legacy direction migration and progress preservation; old/new JSON import/export.
+- All six views at 320, 390, 768 and 1440 px; dark theme and runtime errors.
+- Kazakh date/weekday labels independent of the browser's installed Intl locales.

@@ -16,10 +16,13 @@ for(const w of words){
   assert.ok(w.page >= (w.unit===1?14:w.unit===2?26:42));
   assert.ok(w.page <= (w.unit===1?25:w.unit===2?37:53));
   assert.ok(w.example&&w.exampleRu&&Array.isArray(w.aliases));
+  assert.ok(Array.isArray(w.kk)&&w.kk.length&&w.kk.every(x=>typeof x==='string'&&x.trim()),w.id+' Kazakh translations');
+  assert.ok(w.exampleKk&&typeof w.noteKk==='string',w.id+' Kazakh example');
+  if(w.note)assert.ok(w.noteKk.trim(),w.id+' Kazakh note');
   assert.ok(['n','v','adj','adv','phrase','v/n','n/adj'].includes(w.pos));
 }
 const sandbox={window:{}};
 vm.runInNewContext(fs.readFileSync(path.join(root,'assets/words.js'),'utf8'),sandbox);
 assert.equal(JSON.stringify(sandbox.window.LEXI_WORDS),JSON.stringify(words));
-for(const file of ['index.html','assets/style.css','assets/app.js','assets/words.js','assets/icon.svg','.nojekyll'])assert.ok(fs.existsSync(path.join(root,file)));
-console.log('PASS: 181 words, unique IDs, valid units/pages, translations/examples, JSON and JS in sync.');
+for(const file of ['index.html','assets/style.css','assets/app.js','assets/i18n.js','assets/words.js','assets/icon.svg','.nojekyll'])assert.ok(fs.existsSync(path.join(root,file)));
+console.log('PASS: 181 words, unique IDs, valid units/pages, RU/KK translations/examples/notes, JSON and JS in sync.');

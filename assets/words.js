@@ -1,4 +1,4 @@
-/* Vocabulary: source selection + original Russian study aids. See SOURCES.md. */
+/* Vocabulary data. Keep in sync with vocabulary.json. */
 window.LEXI_WORDS = [
   {
     "id": "u1-001",
@@ -14,7 +14,14 @@ window.LEXI_WORDS = [
     "example": "Abstract ideas can be difficult to explain.",
     "exampleRu": "Абстрактные идеи бывает трудно объяснить.",
     "note": "Противопоставляется practical и concrete: теоретическое, а не конкретное и осязаемое.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "абстрактілі",
+      "дерексіз",
+      "теориялық"
+    ],
+    "exampleKk": "Абстрактілі ойларды түсіндіру қиын болуы мүмкін.",
+    "noteKk": "Practical және concrete ұғымдарына қарсы қойылады: нақты әрі сезінуге болатын нәрсе емес, теориялық ұғым."
   },
   {
     "id": "u1-002",
@@ -29,7 +36,13 @@ window.LEXI_WORDS = [
     "example": "We need practical experience.",
     "exampleRu": "Нам нужен практический опыт.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "практикалық",
+      "тәжірибелік"
+    ],
+    "exampleKk": "Бізге практикалық тәжірибе қажет.",
+    "noteKk": ""
   },
   {
     "id": "u1-003",
@@ -44,7 +57,12 @@ window.LEXI_WORDS = [
     "example": "Learning a language takes conscious effort.",
     "exampleRu": "Изучение языка требует осознанных усилий.",
     "note": "В Unit 1 — conscious effort: осознанное усилие. Consciousness — существительное.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "саналы"
+    ],
+    "exampleKk": "Тілді үйрену саналы күш-жігерді талап етеді.",
+    "noteKk": "1-бөлімде conscious effort — саналы күш-жігер. Consciousness — зат есім."
   },
   {
     "id": "u1-004",
@@ -60,7 +78,13 @@ window.LEXI_WORDS = [
     "example": "I associate this word with a picture.",
     "exampleRu": "Я связываю это слово с картинкой.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "байланыстыру",
+      "ұштастыру"
+    ],
+    "exampleKk": "Мен бұл сөзді суретпен байланыстырамын.",
+    "noteKk": ""
   },
   {
     "id": "u1-005",
@@ -76,7 +100,13 @@ window.LEXI_WORDS = [
     "example": "Reflect on what you have learned.",
     "exampleRu": "Обдумай то, что ты выучил.",
     "note": "В этом разделе reflect on означает «обдумывать», не «отражать в зеркале».",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ойлану",
+      "ой елегінен өткізу"
+    ],
+    "exampleKk": "Үйренгеніңді ой елегінен өткіз.",
+    "noteKk": "Бұл бөлімде reflect on — ойлану, ой елегінен өткізу; айнадан шағылу емес."
   },
   {
     "id": "u1-006",
@@ -92,7 +122,13 @@ window.LEXI_WORDS = [
     "example": "Reflection helps us learn from mistakes.",
     "exampleRu": "Размышление помогает нам учиться на ошибках.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ойлану",
+      "рефлексия"
+    ],
+    "exampleKk": "Ойлану қателерден үйренуге көмектеседі.",
+    "noteKk": ""
   },
   {
     "id": "u1-007",
@@ -107,7 +143,13 @@ window.LEXI_WORDS = [
     "example": "You accumulate knowledge through practice.",
     "exampleRu": "Ты накапливаешь знания благодаря практике.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "жинақтау",
+      "жинау"
+    ],
+    "exampleKk": "Тәжірибе арқылы білім жинақтайсың.",
+    "noteKk": ""
   },
   {
     "id": "u1-008",
@@ -122,7 +164,12 @@ window.LEXI_WORDS = [
     "example": "She has a lot of knowledge about plants.",
     "exampleRu": "У неё много знаний о растениях.",
     "note": "Обычно неисчисляемое: knowledge, не knowledges.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "білім"
+    ],
+    "exampleKk": "Оның өсімдіктер туралы білімі мол.",
+    "noteKk": "Әдетте саналмайтын зат есім: knowledge, knowledges емес."
   },
   {
     "id": "u1-009",
@@ -137,7 +184,12 @@ window.LEXI_WORDS = [
     "example": "This course combines theory and experience.",
     "exampleRu": "Этот курс объединяет теорию и опыт.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тәжірибе"
+    ],
+    "exampleKk": "Бұл курс теория мен тәжірибені біріктіреді.",
+    "noteKk": ""
   },
   {
     "id": "u1-010",
@@ -152,7 +204,13 @@ window.LEXI_WORDS = [
     "example": "Practice helps you achieve your goals.",
     "exampleRu": "Практика помогает достигать целей.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "қол жеткізу",
+      "жету"
+    ],
+    "exampleKk": "Жаттығу мақсаттарыңа жетуге көмектеседі.",
+    "noteKk": ""
   },
   {
     "id": "u1-011",
@@ -168,7 +226,13 @@ window.LEXI_WORDS = [
     "example": "Try a different approach to learning.",
     "exampleRu": "Попробуй другой подход к обучению.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тәсіл",
+      "әдіс"
+    ],
+    "exampleKk": "Оқудың басқа тәсілін қолданып көр.",
+    "noteKk": ""
   },
   {
     "id": "u1-012",
@@ -184,7 +248,13 @@ window.LEXI_WORDS = [
     "example": "Adaptation to a new course takes time.",
     "exampleRu": "Адаптация к новому курсу требует времени.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "бейімделу",
+      "адаптация"
+    ],
+    "exampleKk": "Жаңа курсқа бейімделу уақытты қажет етеді.",
+    "noteKk": ""
   },
   {
     "id": "u1-013",
@@ -200,7 +270,14 @@ window.LEXI_WORDS = [
     "example": "Be aware of your learning habits.",
     "exampleRu": "Осознавай свои привычки в учёбе.",
     "note": "Частое сочетание: be aware of something — осознавать что-либо.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "түсінетін",
+      "хабардар",
+      "ұғынатын"
+    ],
+    "exampleKk": "Өзіңнің оқу әдеттеріңді түсіне біл.",
+    "noteKk": "Жиі қолданылатын тіркес: be aware of something — бір нәрсені ұғыну, одан хабардар болу."
   },
   {
     "id": "u1-014",
@@ -215,7 +292,13 @@ window.LEXI_WORDS = [
     "example": "Independent learning requires planning.",
     "exampleRu": "Самостоятельное обучение требует планирования.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "өз бетінше оқу",
+      "өздігінен білім алу"
+    ],
+    "exampleKk": "Өз бетінше оқу жоспарлауды талап етеді.",
+    "noteKk": ""
   },
   {
     "id": "u1-015",
@@ -230,7 +313,12 @@ window.LEXI_WORDS = [
     "example": "Concrete experience helps her understand the idea.",
     "exampleRu": "Конкретный опыт помогает ей понять идею.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "нақты тәжірибе"
+    ],
+    "exampleKk": "Нақты тәжірибе оған ойды түсінуге көмектеседі.",
+    "noteKk": ""
   },
   {
     "id": "u1-016",
@@ -246,7 +334,13 @@ window.LEXI_WORDS = [
     "example": "Reflective observation means thinking about what you see.",
     "exampleRu": "Рефлексивное наблюдение означает осмысление того, что ты видишь.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "рефлексивті бақылау",
+      "ой елегінен өткізе бақылау"
+    ],
+    "exampleKk": "Рефлексивті бақылау дегеніміз — көргенің туралы ойлану.",
+    "noteKk": ""
   },
   {
     "id": "u1-017",
@@ -264,7 +358,13 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "abstract conceptualization"
-    ]
+    ],
+    "kk": [
+      "абстрактілі тұжырымдау",
+      "дерексіз ұғымдарды қалыптастыру"
+    ],
+    "exampleKk": "Абстрактілі тұжырымдау теорияларды әзірлеуді қамтиды.",
+    "noteKk": ""
   },
   {
     "id": "u1-018",
@@ -279,7 +379,13 @@ window.LEXI_WORDS = [
     "example": "Active experimentation lets us test an idea.",
     "exampleRu": "Активное экспериментирование позволяет проверить идею.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "белсенді тәжірибе жасау",
+      "белсенді эксперимент жүргізу"
+    ],
+    "exampleKk": "Белсенді тәжірибе жасау ойды сынап көруге мүмкіндік береді.",
+    "noteKk": ""
   },
   {
     "id": "u1-019",
@@ -295,7 +401,13 @@ window.LEXI_WORDS = [
     "example": "A diverging style considers different points of view.",
     "exampleRu": "Дивергентный стиль предполагает рассмотрение разных точек зрения.",
     "note": "В модели из текста: конкретный опыт + рефлексивное наблюдение. Перевод дан для названия стиля, а не для любого употребления diverging.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "дивергентті оқу стилі",
+      "әртүрлі қырынан қарастыру"
+    ],
+    "exampleKk": "Дивергентті стиль әртүрлі көзқарастарды қарастырады.",
+    "noteKk": "Мәтіндегі модельде: нақты тәжірибе + рефлексивті бақылау. Бұл аударма diverging сөзінің барлық мағынасына емес, оқу стилінің атауына қатысты."
   },
   {
     "id": "u1-020",
@@ -311,7 +423,13 @@ window.LEXI_WORDS = [
     "example": "An assimilating style values clear theories.",
     "exampleRu": "Ассимилирующий стиль ценит ясные теории.",
     "note": "В модели из текста: рефлексивное наблюдение + абстрактная концептуализация.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ассимиляциялық оқу стилі",
+      "ақпаратты меңгеру және жүйелеу"
+    ],
+    "exampleKk": "Ассимиляциялық стиль нақты тұжырымдалған теорияларды бағалайды.",
+    "noteKk": "Мәтіндегі модельде: рефлексивті бақылау + абстрактілі тұжырымдау."
   },
   {
     "id": "u1-021",
@@ -327,7 +445,13 @@ window.LEXI_WORDS = [
     "example": "A converging style focuses on solving practical problems.",
     "exampleRu": "Конвергентный стиль сосредоточен на решении практических задач.",
     "note": "В модели из текста: абстрактная концептуализация + активное экспериментирование.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "конвергентті оқу стилі",
+      "идеяларды тәжірибеде қолдану"
+    ],
+    "exampleKk": "Конвергентті стиль практикалық мәселелерді шешуге бағытталады.",
+    "noteKk": "Мәтіндегі модельде: абстрактілі тұжырымдау + белсенді тәжірибе жасау."
   },
   {
     "id": "u1-022",
@@ -343,7 +467,13 @@ window.LEXI_WORDS = [
     "example": "An accommodating style favours learning by doing.",
     "exampleRu": "Аккомодирующий стиль предпочитает обучение через действие.",
     "note": "В модели из текста: активное экспериментирование + конкретный опыт.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "аккомодациялық оқу стилі",
+      "әрекет пен тәжірибе арқылы оқу"
+    ],
+    "exampleKk": "Аккомодациялық стиль әрекет арқылы үйренуге басымдық береді.",
+    "noteKk": "Мәтіндегі модельде: белсенді тәжірибе жасау + нақты тәжірибе."
   },
   {
     "id": "u1-023",
@@ -358,7 +488,12 @@ window.LEXI_WORDS = [
     "example": "We used brainstorming to collect ideas.",
     "exampleRu": "Мы использовали мозговой штурм для сбора идей.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "миға шабуыл"
+    ],
+    "exampleKk": "Біз идеяларды жинау үшін миға шабуыл әдісін қолдандық.",
+    "noteKk": ""
   },
   {
     "id": "u1-024",
@@ -374,7 +509,14 @@ window.LEXI_WORDS = [
     "example": "Keep your explanation concise.",
     "exampleRu": "Сделай объяснение кратким.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "қысқа",
+      "ықшам",
+      "қысқа әрі нұсқа"
+    ],
+    "exampleKk": "Түсіндірмең қысқа әрі нұсқа болсын.",
+    "noteKk": ""
   },
   {
     "id": "u1-025",
@@ -389,7 +531,12 @@ window.LEXI_WORDS = [
     "example": "We tested the theory in class.",
     "exampleRu": "Мы проверили теорию на занятии.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "теория"
+    ],
+    "exampleKk": "Біз теорияны сабақта тексердік.",
+    "noteKk": ""
   },
   {
     "id": "u1-026",
@@ -404,7 +551,13 @@ window.LEXI_WORDS = [
     "example": "She relied on intuition rather than analysis.",
     "exampleRu": "Она опиралась на интуицию, а не на анализ.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "түйсік",
+      "интуиция"
+    ],
+    "exampleKk": "Ол талдаудан гөрі түйсікке сүйенді.",
+    "noteKk": ""
   },
   {
     "id": "u1-027",
@@ -419,7 +572,13 @@ window.LEXI_WORDS = [
     "example": "I learned the program through trial and error.",
     "exampleRu": "Я освоил программу методом проб и ошибок.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "сынақ пен қателік әдісі",
+      "қателесу арқылы үйрену"
+    ],
+    "exampleKk": "Мен бағдарламаны сынақ пен қателік әдісі арқылы үйрендім.",
+    "noteKk": ""
   },
   {
     "id": "u1-028",
@@ -437,7 +596,13 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "hands on"
-    ]
+    ],
+    "kk": [
+      "практикалық",
+      "тікелей қатысуға негізделген"
+    ],
+    "exampleKk": "Курс практикалық тапсырмаларды қамтиды.",
+    "noteKk": ""
   },
   {
     "id": "u1-029",
@@ -453,7 +618,14 @@ window.LEXI_WORDS = [
     "example": "He has a tendency to work alone.",
     "exampleRu": "У него есть склонность работать одному.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "бейімділік",
+      "үрдіс",
+      "тенденция"
+    ],
+    "exampleKk": "Ол жалғыз жұмыс істеуге бейім.",
+    "noteKk": ""
   },
   {
     "id": "u1-030",
@@ -469,7 +641,13 @@ window.LEXI_WORDS = [
     "example": "Your conclusion should follow from the evidence.",
     "exampleRu": "Твой вывод должен следовать из доказательств.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "қорытынды",
+      "тұжырым"
+    ],
+    "exampleKk": "Қорытындың дәлелдерге негізделуі керек.",
+    "noteKk": ""
   },
   {
     "id": "u1-031",
@@ -486,7 +664,13 @@ window.LEXI_WORDS = [
     "note": "Draw здесь означает «делать», а не «рисовать». Близко по смыслу к reach / come to a conclusion.",
     "aliases": [
       "draw conclusions"
-    ]
+    ],
+    "kk": [
+      "қорытынды жасау",
+      "тұжырым жасау"
+    ],
+    "exampleKk": "Тым асығыс қорытынды жасама.",
+    "noteKk": "Мұнда draw — сурет салу емес, қорытынды жасау. Мағынасы reach / come to a conclusion тіркестеріне жақын."
   },
   {
     "id": "u1-032",
@@ -503,7 +687,13 @@ window.LEXI_WORDS = [
     "note": "Учи как сочетание целиком. Близко к draw / come to a conclusion.",
     "aliases": [
       "reach conclusions"
-    ]
+    ],
+    "kk": [
+      "қорытындыға келу",
+      "тұжырымға келу"
+    ],
+    "exampleKk": "Талқылаудан кейін біз қорытындыға келдік.",
+    "noteKk": "Тіркесті тұтас жатта. Мағынасы draw / come to a conclusion тіркестеріне жақын."
   },
   {
     "id": "u1-033",
@@ -519,7 +709,13 @@ window.LEXI_WORDS = [
     "example": "Try to anticipate possible questions.",
     "exampleRu": "Постарайся предвидеть возможные вопросы.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "алдын ала болжау",
+      "күту"
+    ],
+    "exampleKk": "Қойылуы мүмкін сұрақтарды алдын ала болжауға тырыс.",
+    "noteKk": ""
   },
   {
     "id": "u1-034",
@@ -535,7 +731,13 @@ window.LEXI_WORDS = [
     "example": "I appreciate your help with the essay.",
     "exampleRu": "Я ценю твою помощь с эссе.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "бағалау",
+      "қадірлеу"
+    ],
+    "exampleKk": "Эссе жазуға көмектескеніңді бағалаймын.",
+    "noteKk": ""
   },
   {
     "id": "u1-035",
@@ -550,7 +752,13 @@ window.LEXI_WORDS = [
     "example": "Students cooperate on group projects.",
     "exampleRu": "Студенты сотрудничают при работе над групповыми проектами.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ынтымақтасу",
+      "бірлесіп жұмыс істеу"
+    ],
+    "exampleKk": "Студенттер топтық жобаларда бірлесіп жұмыс істейді.",
+    "noteKk": ""
   },
   {
     "id": "u1-036",
@@ -566,7 +774,13 @@ window.LEXI_WORDS = [
     "example": "Construct a clear argument.",
     "exampleRu": "Построй ясную аргументацию.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "құру",
+      "жасау"
+    ],
+    "exampleKk": "Нақты дәлел келтір.",
+    "noteKk": ""
   },
   {
     "id": "u1-037",
@@ -582,7 +796,13 @@ window.LEXI_WORDS = [
     "example": "Students exhibit different learning habits.",
     "exampleRu": "Студенты демонстрируют разные привычки в учёбе.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "көрсету",
+      "таныту"
+    ],
+    "exampleKk": "Студенттер әртүрлі оқу әдеттерін танытады.",
+    "noteKk": ""
   },
   {
     "id": "u1-038",
@@ -598,7 +818,13 @@ window.LEXI_WORDS = [
     "example": "Isolate the main problem before you begin.",
     "exampleRu": "Выдели главную проблему, прежде чем начать.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "оқшаулау",
+      "бөліп алу"
+    ],
+    "exampleKk": "Бастамас бұрын негізгі мәселені бөліп ал.",
+    "noteKk": ""
   },
   {
     "id": "u1-039",
@@ -614,7 +840,13 @@ window.LEXI_WORDS = [
     "example": "Select the most useful sources.",
     "exampleRu": "Выбери самые полезные источники.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "таңдау",
+      "іріктеу"
+    ],
+    "exampleKk": "Ең пайдалы дереккөздерді таңда.",
+    "noteKk": ""
   },
   {
     "id": "u1-040",
@@ -629,7 +861,12 @@ window.LEXI_WORDS = [
     "example": "This reading is compulsory for all students.",
     "exampleRu": "Этот материал обязателен для чтения всем студентам.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "міндетті"
+    ],
+    "exampleKk": "Бұл мәтінді оқу барлық студентке міндетті.",
+    "noteKk": ""
   },
   {
     "id": "u1-041",
@@ -645,7 +882,13 @@ window.LEXI_WORDS = [
     "example": "Read quickly to get the gist.",
     "exampleRu": "Прочитай быстро, чтобы уловить основную суть.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "негізгі мән",
+      "негізгі ой"
+    ],
+    "exampleKk": "Негізгі ойды түсіну үшін жылдам оқы.",
+    "noteKk": ""
   },
   {
     "id": "u1-042",
@@ -661,7 +904,13 @@ window.LEXI_WORDS = [
     "example": "Use scan reading to find a date.",
     "exampleRu": "Используй поисковое чтение, чтобы найти дату.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "іздеп оқу",
+      "ақпарат іздеу үшін оқу"
+    ],
+    "exampleKk": "Күнді табу үшін іздеп оқу тәсілін қолдан.",
+    "noteKk": ""
   },
   {
     "id": "u1-043",
@@ -678,7 +927,13 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "key terms"
-    ]
+    ],
+    "kk": [
+      "негізгі термин",
+      "түйінді термин"
+    ],
+    "exampleKk": "Эссеңдегі әрбір негізгі терминді түсіндір.",
+    "noteKk": ""
   },
   {
     "id": "u1-044",
@@ -694,7 +949,13 @@ window.LEXI_WORDS = [
     "example": "Choose information that is relevant to your topic.",
     "exampleRu": "Выбирай информацию, которая относится к твоей теме.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тақырыпқа қатысты",
+      "орынды"
+    ],
+    "exampleKk": "Тақырыбыңа қатысты ақпаратты таңда.",
+    "noteKk": ""
   },
   {
     "id": "u1-045",
@@ -710,7 +971,13 @@ window.LEXI_WORDS = [
     "example": "Read the extract and identify its main idea.",
     "exampleRu": "Прочитай отрывок и определи его главную мысль.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "үзінді",
+      "мәтін үзіндісі"
+    ],
+    "exampleKk": "Үзіндіні оқып, негізгі ойын анықта.",
+    "noteKk": ""
   },
   {
     "id": "u1-046",
@@ -725,7 +992,14 @@ window.LEXI_WORDS = [
     "example": "She has a preference for visual information.",
     "exampleRu": "Она предпочитает визуальную информацию.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "артықшылық беру",
+      "қалау",
+      "талғам"
+    ],
+    "exampleKk": "Ол көрнекі ақпаратқа артықшылық береді.",
+    "noteKk": ""
   },
   {
     "id": "u1-047",
@@ -740,7 +1014,13 @@ window.LEXI_WORDS = [
     "example": "Put each word into a category.",
     "exampleRu": "Отнеси каждое слово к категории.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "санат",
+      "категория"
+    ],
+    "exampleKk": "Әр сөзді белгілі бір санатқа жатқыз.",
+    "noteKk": ""
   },
   {
     "id": "u1-048",
@@ -756,7 +1036,14 @@ window.LEXI_WORDS = [
     "example": "A diagram is a form of visual information.",
     "exampleRu": "Схема — это форма визуальной информации.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "көрнекі",
+      "көру арқылы қабылданатын",
+      "визуалды"
+    ],
+    "exampleKk": "Диаграмма — көрнекі ақпараттың бір түрі.",
+    "noteKk": ""
   },
   {
     "id": "u1-049",
@@ -772,7 +1059,13 @@ window.LEXI_WORDS = [
     "example": "Auditory information is received through hearing.",
     "exampleRu": "Слуховая информация воспринимается через слух.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "есту арқылы қабылданатын",
+      "аудиалды"
+    ],
+    "exampleKk": "Аудиалды ақпарат есту арқылы қабылданады.",
+    "noteKk": ""
   },
   {
     "id": "u1-050",
@@ -790,7 +1083,13 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "kinesthetic"
-    ]
+    ],
+    "kk": [
+      "кинестетикалық",
+      "қимыл мен сезімге қатысты"
+    ],
+    "exampleKk": "Кинестетикалық тапсырмалар қимыл-қозғалысты қамтиды.",
+    "noteKk": ""
   },
   {
     "id": "u1-051",
@@ -806,7 +1105,13 @@ window.LEXI_WORDS = [
     "example": "The book is on loan until Friday.",
     "exampleRu": "Книга выдана на руки до пятницы.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "уақытша пайдалануға берілген",
+      "оқырманға берілген"
+    ],
+    "exampleKk": "Кітап жұмаға дейін оқырманға берілген.",
+    "noteKk": ""
   },
   {
     "id": "u1-052",
@@ -822,7 +1127,13 @@ window.LEXI_WORDS = [
     "example": "The book is available in the library.",
     "exampleRu": "Книга доступна в библиотеке.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "қолжетімді",
+      "бар"
+    ],
+    "exampleKk": "Бұл кітап кітапханада бар.",
+    "noteKk": ""
   },
   {
     "id": "u1-053",
@@ -838,7 +1149,13 @@ window.LEXI_WORDS = [
     "example": "Can I reserve this book?",
     "exampleRu": "Можно забронировать эту книгу?",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "алдын ала тапсырыс беру",
+      "брондау"
+    ],
+    "exampleKk": "Осы кітапқа алдын ала тапсырыс беруге бола ма?",
+    "noteKk": ""
   },
   {
     "id": "u1-054",
@@ -854,7 +1171,13 @@ window.LEXI_WORDS = [
     "example": "Learn the collocation with the word.",
     "exampleRu": "Учи словосочетание вместе со словом.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тұрақты сөз тіркесі",
+      "сөздердің тіркесімі"
+    ],
+    "exampleKk": "Сөзді оның тұрақты тіркесімен бірге үйрен.",
+    "noteKk": ""
   },
   {
     "id": "u1-055",
@@ -870,7 +1193,13 @@ window.LEXI_WORDS = [
     "example": "Awareness of your habits can help you study.",
     "exampleRu": "Осознание своих привычек может помочь тебе в учёбе.",
     "note": "Форма существительного от aware из упражнения на стр. 24.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ұғыну",
+      "хабардарлық"
+    ],
+    "exampleKk": "Әдеттеріңді ұғыну оқуыңа көмектеседі.",
+    "noteKk": "24-беттегі жаттығуда aware сөзінен жасалған зат есім."
   },
   {
     "id": "u1-056",
@@ -886,7 +1215,13 @@ window.LEXI_WORDS = [
     "example": "A picture creates an association with the word.",
     "exampleRu": "Картинка создаёт ассоциацию со словом.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "байланыс",
+      "ассоциация"
+    ],
+    "exampleKk": "Сурет сөзбен байланыс қалыптастырады.",
+    "noteKk": ""
   },
   {
     "id": "u1-057",
@@ -902,7 +1237,13 @@ window.LEXI_WORDS = [
     "example": "Consciousness is the state of being aware.",
     "exampleRu": "Сознание — это состояние осознания.",
     "note": "Форма существительного из упражнения на стр. 24.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "сана",
+      "саналылық"
+    ],
+    "exampleKk": "Consciousness — айналаңды ұғыну күйі.",
+    "noteKk": "24-беттегі жаттығуда берілген зат есім түрі."
   },
   {
     "id": "u1-058",
@@ -917,7 +1258,13 @@ window.LEXI_WORDS = [
     "example": "Cooperation is important in a team.",
     "exampleRu": "Сотрудничество важно в команде.",
     "note": "Форма существительного от cooperate из упражнения на стр. 24.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ынтымақтастық",
+      "бірлескен жұмыс"
+    ],
+    "exampleKk": "Командада ынтымақтастық маңызды.",
+    "noteKk": "24-беттегі жаттығуда cooperate етістігінен жасалған зат есім."
   },
   {
     "id": "u1-059",
@@ -933,7 +1280,13 @@ window.LEXI_WORDS = [
     "example": "The selection of sources takes time.",
     "exampleRu": "Отбор источников требует времени.",
     "note": "Форма существительного от select из упражнения на стр. 24.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "таңдау",
+      "іріктеу"
+    ],
+    "exampleKk": "Дереккөздерді іріктеу уақытты қажет етеді.",
+    "noteKk": "24-беттегі жаттығуда select етістігінен жасалған зат есім."
   },
   {
     "id": "u1-060",
@@ -949,7 +1302,13 @@ window.LEXI_WORDS = [
     "example": "Some learners prefer theory; by contrast, others prefer practice.",
     "exampleRu": "Одни учащиеся предпочитают теорию; другие, напротив, предпочитают практику.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "бұған қарағанда",
+      "керісінше"
+    ],
+    "exampleKk": "Кейбір оқушылар теорияны ұнатады, ал басқалары, керісінше, тәжірибені ұнатады.",
+    "noteKk": ""
   },
   {
     "id": "u2-001",
@@ -964,7 +1323,13 @@ window.LEXI_WORDS = [
     "example": "Each organism plays a role in its environment.",
     "exampleRu": "Каждый организм играет роль в своей среде.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ағза",
+      "организм"
+    ],
+    "exampleKk": "Әр ағза өз ортасында белгілі бір рөл атқарады.",
+    "noteKk": ""
   },
   {
     "id": "u2-002",
@@ -979,7 +1344,12 @@ window.LEXI_WORDS = [
     "example": "A forest is a complex ecosystem.",
     "exampleRu": "Лес — это сложная экосистема.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "экожүйе"
+    ],
+    "exampleKk": "Орман — күрделі экожүйе.",
+    "noteKk": ""
   },
   {
     "id": "u2-003",
@@ -995,7 +1365,13 @@ window.LEXI_WORDS = [
     "example": "Human activity changes the environment.",
     "exampleRu": "Деятельность человека изменяет окружающую среду.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "қоршаған орта",
+      "тіршілік ортасы"
+    ],
+    "exampleKk": "Адамның іс-әрекеті қоршаған ортаны өзгертеді.",
+    "noteKk": ""
   },
   {
     "id": "u2-004",
@@ -1010,7 +1386,13 @@ window.LEXI_WORDS = [
     "example": "Pollination helps many plants produce seeds.",
     "exampleRu": "Опыление помогает многим растениям образовывать семена.",
     "note": "Действие или процесс. Pollinate — глагол, pollinator — тот, кто переносит пыльцу.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тозаңдану",
+      "тозаңдандыру"
+    ],
+    "exampleKk": "Тозаңдану көптеген өсімдіктердің тұқым түзуіне көмектеседі.",
+    "noteKk": "Әрекет не үдеріс. Pollinate — етістік, pollinator — тозаң тасымалдайтын ағза."
   },
   {
     "id": "u2-005",
@@ -1025,7 +1407,12 @@ window.LEXI_WORDS = [
     "example": "Bees pollinate many flowering plants.",
     "exampleRu": "Пчёлы опыляют многие цветковые растения.",
     "note": "Глагол: опылять. Не путай с pollen — пыльца.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тозаңдандыру"
+    ],
+    "exampleKk": "Аралар көптеген гүлді өсімдікті тозаңдандырады.",
+    "noteKk": "Етістік: тозаңдандыру. Pollen — тозаң сөзімен шатастырма."
   },
   {
     "id": "u2-006",
@@ -1040,7 +1427,12 @@ window.LEXI_WORDS = [
     "example": "A bee is a pollinator.",
     "exampleRu": "Пчела — это опылитель.",
     "note": "Опылитель — организм. Pollination — процесс, pollen — вещество.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тозаңдандырғыш"
+    ],
+    "exampleKk": "Ара — тозаңдандырғыш.",
+    "noteKk": "Тозаңдандырғыш — ағза. Pollination — үдеріс, pollen — зат."
   },
   {
     "id": "u2-007",
@@ -1055,7 +1447,12 @@ window.LEXI_WORDS = [
     "example": "The insect carries pollen between flowers.",
     "exampleRu": "Насекомое переносит пыльцу между цветками.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тозаң"
+    ],
+    "exampleKk": "Жәндік тозаңды гүлдер арасында тасымалдайды.",
+    "noteKk": ""
   },
   {
     "id": "u2-008",
@@ -1070,7 +1467,12 @@ window.LEXI_WORDS = [
     "example": "The beekeeper checked the hive.",
     "exampleRu": "Пчеловод проверил улей.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "омарташы"
+    ],
+    "exampleKk": "Омарташы ұяны тексерді.",
+    "noteKk": ""
   },
   {
     "id": "u2-009",
@@ -1087,7 +1489,12 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "bee hive"
-    ]
+    ],
+    "kk": [
+      "ара ұясы"
+    ],
+    "exampleKk": "Бақтың жанында ара ұясы бар.",
+    "noteKk": ""
   },
   {
     "id": "u2-010",
@@ -1104,7 +1511,12 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "honey bee"
-    ]
+    ],
+    "kk": [
+      "бал арасы"
+    ],
+    "exampleKk": "Бал арасы көптеген гүлге қонады.",
+    "noteKk": ""
   },
   {
     "id": "u2-011",
@@ -1120,7 +1532,13 @@ window.LEXI_WORDS = [
     "example": "A colony of bees lives in the hive.",
     "exampleRu": "В улье живёт пчелиная семья.",
     "note": "В тексте о пчёлах — колония или пчелиная семья, а не колония государства.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "колония",
+      "ара отбасы"
+    ],
+    "exampleKk": "Ұяда ара отбасы тіршілік етеді.",
+    "noteKk": "Аралар туралы мәтінде — ара отбасы немесе колония; мемлекеттің отары емес."
   },
   {
     "id": "u2-012",
@@ -1136,7 +1554,13 @@ window.LEXI_WORDS = [
     "example": "Many species depend on flowering plants.",
     "exampleRu": "Многие виды зависят от цветковых растений.",
     "note": "Одинаковая форма для единственного и множественного числа: one species / many species.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "биологиялық түр",
+      "түр"
+    ],
+    "exampleKk": "Көптеген түр гүлді өсімдіктерге тәуелді.",
+    "noteKk": "Жекеше және көпше түрі бірдей: one species / many species."
   },
   {
     "id": "u2-013",
@@ -1151,7 +1575,12 @@ window.LEXI_WORDS = [
     "example": "This insect can transfer pollen.",
     "exampleRu": "Это насекомое может переносить пыльцу.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "жәндік"
+    ],
+    "exampleKk": "Бұл жәндік тозаң тасымалдай алады.",
+    "noteKk": ""
   },
   {
     "id": "u2-014",
@@ -1168,7 +1597,12 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "flowering plants"
-    ]
+    ],
+    "kk": [
+      "гүлді өсімдік"
+    ],
+    "exampleKk": "Гүлді өсімдік тозаңдандырғыштарды өзіне тарта алады.",
+    "noteKk": ""
   },
   {
     "id": "u2-015",
@@ -1184,7 +1618,14 @@ window.LEXI_WORDS = [
     "example": "Farmers grow this crop for food.",
     "exampleRu": "Фермеры выращивают эту культуру для получения пищи.",
     "note": "В контексте этого юнита — сельскохозяйственная культура или урожай, не обрезка изображения.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ауыл шаруашылығы дақылы",
+      "дақыл",
+      "өнім"
+    ],
+    "exampleKk": "Фермерлер бұл дақылды азық үшін өсіреді.",
+    "noteKk": "Бұл бөлімде — ауыл шаруашылығы дақылы немесе өнім; суретті қиып алу емес."
   },
   {
     "id": "u2-016",
@@ -1200,7 +1641,13 @@ window.LEXI_WORDS = [
     "example": "A pesticide may harm useful insects.",
     "exampleRu": "Пестицид может навредить полезным насекомым.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "пестицид",
+      "зиянкестерге қарсы құрал"
+    ],
+    "exampleKk": "Пестицид пайдалы жәндіктерге зиян келтіруі мүмкін.",
+    "noteKk": ""
   },
   {
     "id": "u2-017",
@@ -1215,7 +1662,13 @@ window.LEXI_WORDS = [
     "example": "These plants depend on insects.",
     "exampleRu": "Эти растения зависят от насекомых.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тәуелді болу",
+      "байланысты болу"
+    ],
+    "exampleKk": "Бұл өсімдіктер жәндіктерге тәуелді.",
+    "noteKk": ""
   },
   {
     "id": "u2-018",
@@ -1231,7 +1684,13 @@ window.LEXI_WORDS = [
     "example": "Adaptability helps a species survive changes.",
     "exampleRu": "Приспособляемость помогает виду пережить изменения.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "бейімделу қабілеті",
+      "бейімделгіштік"
+    ],
+    "exampleKk": "Бейімделу қабілеті түрдің өзгерістер кезінде аман қалуына көмектеседі.",
+    "noteKk": ""
   },
   {
     "id": "u2-019",
@@ -1247,7 +1706,14 @@ window.LEXI_WORDS = [
     "example": "Pollinators are indispensable to many crops.",
     "exampleRu": "Опылители незаменимы для многих культур.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "таптырмас",
+      "аса қажетті",
+      "алмастырылмайтын"
+    ],
+    "exampleKk": "Көптеген дақыл үшін тозаңдандырғыштар аса қажет.",
+    "noteKk": ""
   },
   {
     "id": "u2-020",
@@ -1262,7 +1728,12 @@ window.LEXI_WORDS = [
     "example": "Use a reliable source of information.",
     "exampleRu": "Используй надёжный источник информации.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "сенімді"
+    ],
+    "exampleKk": "Сенімді ақпарат көзін қолдан.",
+    "noteKk": ""
   },
   {
     "id": "u2-021",
@@ -1277,7 +1748,12 @@ window.LEXI_WORDS = [
     "example": "This species has a strong competitor.",
     "exampleRu": "У этого вида есть сильный конкурент.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "бәсекелес"
+    ],
+    "exampleKk": "Бұл түрдің күшті бәсекелесі бар.",
+    "noteKk": ""
   },
   {
     "id": "u2-022",
@@ -1293,7 +1769,13 @@ window.LEXI_WORDS = [
     "example": "Insects transfer pollen from flower to flower.",
     "exampleRu": "Насекомые переносят пыльцу с цветка на цветок.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тасымалдау",
+      "беру"
+    ],
+    "exampleKk": "Жәндіктер тозаңды бір гүлден екіншісіне тасымалдайды.",
+    "noteKk": ""
   },
   {
     "id": "u2-023",
@@ -1309,7 +1791,13 @@ window.LEXI_WORDS = [
     "example": "The new method enables faster research.",
     "exampleRu": "Новый метод делает возможным более быстрое исследование.",
     "note": "Конструкция: enable someone/something to do something.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "мүмкіндік беру",
+      "мүмкін ету"
+    ],
+    "exampleKk": "Жаңа әдіс зерттеуді жылдамырақ жүргізуге мүмкіндік береді.",
+    "noteKk": "Құрылымы: enable someone/something to do something — біреуге не бір нәрсеге әрекет жасауға мүмкіндік беру."
   },
   {
     "id": "u2-024",
@@ -1325,7 +1813,13 @@ window.LEXI_WORDS = [
     "example": "Scientists estimate the number of insects.",
     "exampleRu": "Учёные приблизительно подсчитывают число насекомых.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "шамамен бағалау",
+      "шамалап есептеу"
+    ],
+    "exampleKk": "Ғалымдар жәндіктердің санын шамамен бағалайды.",
+    "noteKk": ""
   },
   {
     "id": "u2-025",
@@ -1340,7 +1834,13 @@ window.LEXI_WORDS = [
     "example": "The absence of bees can affect a crop.",
     "exampleRu": "Отсутствие пчёл может повлиять на урожай.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "болмауы",
+      "жоқтығы"
+    ],
+    "exampleKk": "Аралардың болмауы өнімге әсер етуі мүмкін.",
+    "noteKk": ""
   },
   {
     "id": "u2-026",
@@ -1356,7 +1856,13 @@ window.LEXI_WORDS = [
     "example": "The bee population has decreased.",
     "exampleRu": "Популяция пчёл сократилась.",
     "note": "В тексте о пчёлах прежде всего «популяция», а не население страны.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "популяция",
+      "халық"
+    ],
+    "exampleKk": "Аралар популяциясы азайды.",
+    "noteKk": "Аралар туралы мәтінде негізінен популяция мағынасында, ел халқы емес."
   },
   {
     "id": "u2-027",
@@ -1371,7 +1877,13 @@ window.LEXI_WORDS = [
     "example": "Some insects may disappear from the area.",
     "exampleRu": "Некоторые насекомые могут исчезнуть из этой местности.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "жоғалу",
+      "жойылу"
+    ],
+    "exampleKk": "Кейбір жәндіктер бұл аймақтан жоғалып кетуі мүмкін.",
+    "noteKk": ""
   },
   {
     "id": "u2-028",
@@ -1387,7 +1899,13 @@ window.LEXI_WORDS = [
     "example": "The change had a negative impact.",
     "exampleRu": "Это изменение оказало отрицательное воздействие.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "әсер",
+      "ықпал"
+    ],
+    "exampleKk": "Бұл өзгеріс теріс әсер етті.",
+    "noteKk": ""
   },
   {
     "id": "u2-029",
@@ -1403,7 +1921,13 @@ window.LEXI_WORDS = [
     "example": "The problem affects farmers worldwide.",
     "exampleRu": "Эта проблема затрагивает фермеров по всему миру.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "бүкіл әлемде",
+      "дүниежүзілік"
+    ],
+    "exampleKk": "Мәселе бүкіл әлемдегі фермерлерге әсер етеді.",
+    "noteKk": ""
   },
   {
     "id": "u2-030",
@@ -1418,7 +1942,12 @@ window.LEXI_WORDS = [
     "example": "They planted apple trees in the orchard.",
     "exampleRu": "Они посадили яблони во фруктовом саду.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "жеміс бағы"
+    ],
+    "exampleKk": "Олар жеміс бағына алма ағаштарын отырғызды.",
+    "noteKk": ""
   },
   {
     "id": "u2-031",
@@ -1435,7 +1964,13 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "greenhouse gases"
-    ]
+    ],
+    "kk": [
+      "парниктік газ",
+      "жылыжай газы"
+    ],
+    "exampleKk": "Көмірқышқыл газы — парниктік газ.",
+    "noteKk": ""
   },
   {
     "id": "u2-032",
@@ -1453,7 +1988,13 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "large industrial farm"
-    ]
+    ],
+    "kk": [
+      "ірі өнеркәсіптік фермалар",
+      "ірі өндірістік шаруашылықтар"
+    ],
+    "exampleKk": "Ірі өнеркәсіптік фермалар жергілікті тіршілік ортасын өзгертуі мүмкін.",
+    "noteKk": ""
   },
   {
     "id": "u2-033",
@@ -1470,7 +2011,12 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "analyze"
-    ]
+    ],
+    "kk": [
+      "талдау"
+    ],
+    "exampleKk": "Жазбас бұрын нәтижелерді талда.",
+    "noteKk": ""
   },
   {
     "id": "u2-034",
@@ -1485,7 +2031,13 @@ window.LEXI_WORDS = [
     "example": "The analysis revealed a problem.",
     "exampleRu": "Анализ выявил проблему.",
     "note": "Analyse — действие; analysis — сам анализ; analyst — человек. Множественное: analyses.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "талдау",
+      "анализ"
+    ],
+    "exampleKk": "Талдау мәселені анықтады.",
+    "noteKk": "Analyse — әрекет; analysis — талдаудың өзі; analyst — адам. Көпше түрі: analyses."
   },
   {
     "id": "u2-035",
@@ -1500,7 +2052,13 @@ window.LEXI_WORDS = [
     "example": "The analyst studied the results.",
     "exampleRu": "Аналитик изучил результаты.",
     "note": "Существительное со значением лица из упражнения на стр. 36.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "талдаушы",
+      "аналитик"
+    ],
+    "exampleKk": "Талдаушы нәтижелерді зерттеді.",
+    "noteKk": "36-беттегі жаттығуда адамды білдіретін зат есім."
   },
   {
     "id": "u2-036",
@@ -1517,7 +2075,14 @@ window.LEXI_WORDS = [
     "example": "Identify the main cause of the problem.",
     "exampleRu": "Определи главную причину проблемы.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "анықтау",
+      "тану",
+      "айқындау"
+    ],
+    "exampleKk": "Мәселенің негізгі себебін анықта.",
+    "noteKk": ""
   },
   {
     "id": "u2-037",
@@ -1534,7 +2099,14 @@ window.LEXI_WORDS = [
     "example": "The identification of this species was difficult.",
     "exampleRu": "Определение этого вида было сложным.",
     "note": "Существительное из упражнения на стр. 36: identify → identification.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "анықтау",
+      "сәйкестендіру",
+      "идентификация"
+    ],
+    "exampleKk": "Бұл түрді анықтау қиын болды.",
+    "noteKk": "36-беттегі жаттығудағы зат есім: identify → identification."
   },
   {
     "id": "u2-038",
@@ -1550,7 +2122,13 @@ window.LEXI_WORDS = [
     "example": "As many as fifty students joined.",
     "exampleRu": "Присоединилось целых пятьдесят студентов.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тұп-тура",
+      "дейін"
+    ],
+    "exampleKk": "Тұп-тура елу студент қатысты.",
+    "noteKk": "As many as санның көптігін ерекше көрсетеді: as many as fifty — тұп-тура елу, елуге дейін."
   },
   {
     "id": "u2-039",
@@ -1566,7 +2144,13 @@ window.LEXI_WORDS = [
     "example": "There were twenty examples in all.",
     "exampleRu": "Всего было двадцать примеров.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "барлығы",
+      "жалпы алғанда"
+    ],
+    "exampleKk": "Барлығы жиырма мысал болды.",
+    "noteKk": ""
   },
   {
     "id": "u2-040",
@@ -1582,7 +2166,13 @@ window.LEXI_WORDS = [
     "example": "The number is thought to be increasing.",
     "exampleRu": "Считается, что это число растёт.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "деп есептелу",
+      "деп саналуы"
+    ],
+    "exampleKk": "Саны артып келеді деп есептеледі.",
+    "noteKk": ""
   },
   {
     "id": "u2-041",
@@ -1598,7 +2188,13 @@ window.LEXI_WORDS = [
     "example": "The diagram shows the carbon cycle.",
     "exampleRu": "Схема показывает круговорот углерода.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "көміртек айналымы",
+      "көміртек циклі"
+    ],
+    "exampleKk": "Диаграмма көміртек айналымын көрсетеді.",
+    "noteKk": ""
   },
   {
     "id": "u2-042",
@@ -1613,7 +2209,12 @@ window.LEXI_WORDS = [
     "example": "Plants use light in photosynthesis.",
     "exampleRu": "Растения используют свет при фотосинтезе.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "фотосинтез"
+    ],
+    "exampleKk": "Өсімдіктер фотосинтез кезінде жарықты пайдаланады.",
+    "noteKk": ""
   },
   {
     "id": "u2-043",
@@ -1628,7 +2229,12 @@ window.LEXI_WORDS = [
     "example": "Respiration is part of the carbon cycle.",
     "exampleRu": "Дыхание — часть круговорота углерода.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тыныс алу"
+    ],
+    "exampleKk": "Тыныс алу — көміртек айналымының бір бөлігі.",
+    "noteKk": ""
   },
   {
     "id": "u2-044",
@@ -1644,7 +2250,12 @@ window.LEXI_WORDS = [
     "example": "Combustion releases carbon dioxide.",
     "exampleRu": "При сгорании выделяется углекислый газ.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "жану"
+    ],
+    "exampleKk": "Жану кезінде көмірқышқыл газы бөлінеді.",
+    "noteKk": ""
   },
   {
     "id": "u2-045",
@@ -1659,7 +2270,12 @@ window.LEXI_WORDS = [
     "example": "Decomposition returns carbon to the environment.",
     "exampleRu": "Разложение возвращает углерод в окружающую среду.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ыдырау"
+    ],
+    "exampleKk": "Ыдырау көміртекті қоршаған ортаға қайтарады.",
+    "noteKk": ""
   },
   {
     "id": "u2-046",
@@ -1676,7 +2292,13 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "fossil fuel"
-    ]
+    ],
+    "kk": [
+      "қазба отын",
+      "қазба отындар"
+    ],
+    "exampleKk": "Көмір мен мұнай — қазба отындар.",
+    "noteKk": ""
   },
   {
     "id": "u2-047",
@@ -1691,7 +2313,12 @@ window.LEXI_WORDS = [
     "example": "Diffusion moves substances between areas.",
     "exampleRu": "Диффузия перемещает вещества между областями.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "диффузия"
+    ],
+    "exampleKk": "Диффузия заттарды бір аймақтан екіншісіне өткізеді.",
+    "noteKk": ""
   },
   {
     "id": "u2-048",
@@ -1707,7 +2334,13 @@ window.LEXI_WORDS = [
     "example": "Check the relevance of the text.",
     "exampleRu": "Проверь, соответствует ли текст теме.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тақырыпқа сәйкестік",
+      "орындылық"
+    ],
+    "exampleKk": "Мәтіннің тақырыпқа сәйкестігін тексер.",
+    "noteKk": ""
   },
   {
     "id": "u2-049",
@@ -1722,7 +2355,12 @@ window.LEXI_WORDS = [
     "example": "The research confirmed the problem.",
     "exampleRu": "Исследование подтвердило проблему.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "растау"
+    ],
+    "exampleKk": "Зерттеу мәселенің бар екенін растады.",
+    "noteKk": ""
   },
   {
     "id": "u2-050",
@@ -1737,7 +2375,14 @@ window.LEXI_WORDS = [
     "example": "They recognised the seriousness of the situation.",
     "exampleRu": "Они осознали серьёзность ситуации.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "күрделілік",
+      "маңыздылық",
+      "елеулілік"
+    ],
+    "exampleKk": "Олар жағдайдың күрделілігін түсінді.",
+    "noteKk": ""
   },
   {
     "id": "u2-051",
@@ -1752,7 +2397,13 @@ window.LEXI_WORDS = [
     "example": "This change may result in fewer bees.",
     "exampleRu": "Это изменение может привести к уменьшению числа пчёл.",
     "note": "Result in + результат: приводить к чему-либо.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "әкелу",
+      "себеп болу"
+    ],
+    "exampleKk": "Бұл өзгеріс аралар санының азаюына әкелуі мүмкін.",
+    "noteKk": "Result in + нәтиже: бір нәрсеге әкелу, себеп болу."
   },
   {
     "id": "u2-052",
@@ -1767,7 +2418,13 @@ window.LEXI_WORDS = [
     "example": "Can another method replace this process?",
     "exampleRu": "Может ли другой метод заменить этот процесс?",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ауыстыру",
+      "алмастыру"
+    ],
+    "exampleKk": "Бұл үдерісті басқа әдіс алмастыра ала ма?",
+    "noteKk": ""
   },
   {
     "id": "u2-053",
@@ -1782,7 +2439,13 @@ window.LEXI_WORDS = [
     "example": "We need a solution to the problem.",
     "exampleRu": "Нам нужно решение проблемы.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "мәселенің шешімі",
+      "шешім"
+    ],
+    "exampleKk": "Бізге мәселенің шешімі қажет.",
+    "noteKk": ""
   },
   {
     "id": "u2-054",
@@ -1797,7 +2460,12 @@ window.LEXI_WORDS = [
     "example": "A seed can grow into a new plant.",
     "exampleRu": "Из семени может вырасти новое растение.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тұқым"
+    ],
+    "exampleKk": "Тұқымнан жаңа өсімдік өсіп шығуы мүмкін.",
+    "noteKk": ""
   },
   {
     "id": "u2-055",
@@ -1813,7 +2481,13 @@ window.LEXI_WORDS = [
     "example": "Study the relationship between plants and insects.",
     "exampleRu": "Изучи взаимосвязь между растениями и насекомыми.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "өзара байланыс",
+      "қатынас"
+    ],
+    "exampleKk": "Өсімдіктер мен жәндіктер арасындағы байланысты зертте.",
+    "noteKk": ""
   },
   {
     "id": "u3-001",
@@ -1829,7 +2503,13 @@ window.LEXI_WORDS = [
     "example": "This is an indication of economic change.",
     "exampleRu": "Это признак экономических изменений.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "белгі",
+      "көрсеткіш"
+    ],
+    "exampleKk": "Бұл — экономикалық өзгерістің белгісі.",
+    "noteKk": ""
   },
   {
     "id": "u3-002",
@@ -1845,7 +2525,14 @@ window.LEXI_WORDS = [
     "example": "The figures indicate a fall in output.",
     "exampleRu": "Данные указывают на снижение объёма производства.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "көрсету",
+      "білдіру",
+      "айғақтау"
+    ],
+    "exampleKk": "Сандар өндіріс көлемінің азайғанын көрсетеді.",
+    "noteKk": ""
   },
   {
     "id": "u3-003",
@@ -1860,7 +2547,13 @@ window.LEXI_WORDS = [
     "example": "The graph shows a clear trend.",
     "exampleRu": "График показывает явную тенденцию.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "үрдіс",
+      "тенденция"
+    ],
+    "exampleKk": "График айқын үрдісті көрсетеді.",
+    "noteKk": ""
   },
   {
     "id": "u3-004",
@@ -1876,7 +2569,13 @@ window.LEXI_WORDS = [
     "example": "Employment fell during the recession.",
     "exampleRu": "Во время экономического спада занятость снизилась.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "рецессия",
+      "экономикалық құлдырау"
+    ],
+    "exampleKk": "Экономикалық құлдырау кезінде жұмыспен қамту азайды.",
+    "noteKk": ""
   },
   {
     "id": "u3-005",
@@ -1892,7 +2591,13 @@ window.LEXI_WORDS = [
     "example": "The depression affected many businesses.",
     "exampleRu": "Экономическая депрессия затронула много предприятий.",
     "note": "В этом юните — глубокий экономический спад, не эмоциональное состояние.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "экономикалық тоқырау",
+      "терең экономикалық құлдырау"
+    ],
+    "exampleKk": "Экономикалық тоқырау көптеген кәсіпорынға әсер етті.",
+    "noteKk": "Бұл бөлімде — терең экономикалық құлдырау, адамның көңіл күйі емес."
   },
   {
     "id": "u3-006",
@@ -1907,7 +2612,12 @@ window.LEXI_WORDS = [
     "example": "The entrepreneur started a new company.",
     "exampleRu": "Предприниматель создал новую компанию.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "кәсіпкер"
+    ],
+    "exampleKk": "Кәсіпкер жаңа компания құрды.",
+    "noteKk": ""
   },
   {
     "id": "u3-007",
@@ -1922,7 +2632,12 @@ window.LEXI_WORDS = [
     "example": "The company needs capital to expand.",
     "exampleRu": "Компании нужен капитал для расширения.",
     "note": "Здесь деньги/ресурсы для бизнеса, не столица и не заглавная буква.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "капитал"
+    ],
+    "exampleKk": "Компанияға кеңею үшін капитал қажет.",
+    "noteKk": "Мұнда бизнеске арналған ақша не ресурстар; астана немесе бас әріп емес."
   },
   {
     "id": "u3-008",
@@ -1938,7 +2653,13 @@ window.LEXI_WORDS = [
     "example": "Factory output increased last year.",
     "exampleRu": "Объём производства завода вырос в прошлом году.",
     "note": "Здесь выпуск продукции или объём производства, не вывод программы.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "өндіріс көлемі",
+      "өнім шығару"
+    ],
+    "exampleKk": "Өткен жылы зауыттың өндіріс көлемі артты.",
+    "noteKk": "Мұнда өнім шығару немесе өндіріс көлемі; бағдарламаның шығаратын деректері емес."
   },
   {
     "id": "u3-009",
@@ -1953,7 +2674,13 @@ window.LEXI_WORDS = [
     "example": "Her income comes from two jobs.",
     "exampleRu": "Её доход складывается из заработка на двух работах.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "табыс",
+      "кіріс"
+    ],
+    "exampleKk": "Оның табысы екі жұмыстан түседі.",
+    "noteKk": ""
   },
   {
     "id": "u3-010",
@@ -1969,7 +2696,13 @@ window.LEXI_WORDS = [
     "example": "Wealth and income are not the same thing.",
     "exampleRu": "Богатство и доход — не одно и то же.",
     "note": "Богатство / накопленное состояние. Income — поступающий доход.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "байлық",
+      "дәулет"
+    ],
+    "exampleKk": "Байлық пен табыс — екі түрлі ұғым.",
+    "noteKk": "Байлық — жинақталған дәулет. Income — түсіп отыратын табыс."
   },
   {
     "id": "u3-011",
@@ -1985,7 +2718,13 @@ window.LEXI_WORDS = [
     "example": "The stock market fell sharply.",
     "exampleRu": "Фондовый рынок резко упал.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "қор нарығы",
+      "акциялар нарығы"
+    ],
+    "exampleKk": "Қор нарығы күрт төмендеді.",
+    "noteKk": ""
   },
   {
     "id": "u3-012",
@@ -2001,7 +2740,13 @@ window.LEXI_WORDS = [
     "example": "A stock market crash can affect investment.",
     "exampleRu": "Обвал фондового рынка может повлиять на инвестиции.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "қор нарығының күйреуі",
+      "биржалық күйреу"
+    ],
+    "exampleKk": "Қор нарығының күйреуі инвестицияға әсер етуі мүмкін.",
+    "noteKk": ""
   },
   {
     "id": "u3-013",
@@ -2016,7 +2761,12 @@ window.LEXI_WORDS = [
     "example": "Inflation means a general rise in prices.",
     "exampleRu": "Инфляция означает общее повышение цен.",
     "note": "Общий рост цен. Deflation — общее снижение цен.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "инфляция"
+    ],
+    "exampleKk": "Инфляция — бағалардың жалпы өсуі.",
+    "noteKk": "Бағалардың жалпы өсуі. Deflation — бағалардың жалпы төмендеуі."
   },
   {
     "id": "u3-014",
@@ -2031,7 +2781,12 @@ window.LEXI_WORDS = [
     "example": "Deflation involves a general fall in prices.",
     "exampleRu": "Дефляция предполагает общее снижение цен.",
     "note": "Общее снижение цен. Не просто замедление роста цен.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "дефляция"
+    ],
+    "exampleKk": "Дефляция бағалардың жалпы төмендеуін білдіреді.",
+    "noteKk": "Бағалардың жалпы төмендеуі; тек баға өсімінің баяулауы емес."
   },
   {
     "id": "u3-015",
@@ -2049,7 +2804,13 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "work force"
-    ]
+    ],
+    "kk": [
+      "жұмыс күші",
+      "еңбек ресурстары"
+    ],
+    "exampleKk": "Елде білікті жұмыс күші бар.",
+    "noteKk": ""
   },
   {
     "id": "u3-016",
@@ -2066,7 +2827,12 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "natural resource"
-    ]
+    ],
+    "kk": [
+      "табиғи ресурстар"
+    ],
+    "exampleKk": "Аймақта табиғи ресурстар көп.",
+    "noteKk": ""
   },
   {
     "id": "u3-017",
@@ -2082,7 +2848,13 @@ window.LEXI_WORDS = [
     "example": "Employment rose as new factories opened.",
     "exampleRu": "Занятость выросла с открытием новых заводов.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "жұмыспен қамту",
+      "жұмысқа орналасу"
+    ],
+    "exampleKk": "Жаңа зауыттар ашылған сайын жұмыспен қамту артты.",
+    "noteKk": ""
   },
   {
     "id": "u3-018",
@@ -2097,7 +2869,12 @@ window.LEXI_WORDS = [
     "example": "Unemployment is a major concern.",
     "exampleRu": "Безработица вызывает серьёзную обеспокоенность.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "жұмыссыздық"
+    ],
+    "exampleKk": "Жұмыссыздық — маңызды мәселе.",
+    "noteKk": ""
   },
   {
     "id": "u3-019",
@@ -2113,7 +2890,13 @@ window.LEXI_WORDS = [
     "example": "Youth unemployment has increased.",
     "exampleRu": "Молодёжная безработица выросла.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "жастар жұмыссыздығы",
+      "жастар арасындағы жұмыссыздық"
+    ],
+    "exampleKk": "Жастар арасындағы жұмыссыздық өсті.",
+    "noteKk": ""
   },
   {
     "id": "u3-020",
@@ -2129,7 +2912,13 @@ window.LEXI_WORDS = [
     "example": "Economic recovery was slow.",
     "exampleRu": "Восстановление экономики шло медленно.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "экономиканың қалпына келуі",
+      "экономикалық қалпына келу"
+    ],
+    "exampleKk": "Экономиканың қалпына келуі баяу жүрді.",
+    "noteKk": ""
   },
   {
     "id": "u3-021",
@@ -2144,7 +2933,12 @@ window.LEXI_WORDS = [
     "example": "The crisis became an economic disaster.",
     "exampleRu": "Кризис превратился в экономическую катастрофу.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "экономикалық апат"
+    ],
+    "exampleKk": "Дағдарыс экономикалық апатқа айналды.",
+    "noteKk": ""
   },
   {
     "id": "u3-022",
@@ -2159,7 +2953,13 @@ window.LEXI_WORDS = [
     "example": "The financial crisis affected banks.",
     "exampleRu": "Финансовый кризис затронул банки.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "қаржылық дағдарыс",
+      "қаржы дағдарысы"
+    ],
+    "exampleKk": "Қаржылық дағдарыс банктерге әсер етті.",
+    "noteKk": ""
   },
   {
     "id": "u3-023",
@@ -2174,7 +2974,12 @@ window.LEXI_WORDS = [
     "example": "Production fell during the crisis.",
     "exampleRu": "Во время кризиса производство сократилось.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "өндіріс"
+    ],
+    "exampleKk": "Дағдарыс кезінде өндіріс төмендеді.",
+    "noteKk": ""
   },
   {
     "id": "u3-024",
@@ -2190,7 +2995,14 @@ window.LEXI_WORDS = [
     "example": "The economy has potential for growth.",
     "exampleRu": "У экономики есть потенциал роста.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "әлеует",
+      "әлеуетті",
+      "мүмкіндік"
+    ],
+    "exampleKk": "Экономиканың өсу әлеуеті бар.",
+    "noteKk": ""
   },
   {
     "id": "u3-025",
@@ -2206,7 +3018,13 @@ window.LEXI_WORDS = [
     "example": "The region became more prosperous.",
     "exampleRu": "Регион стал более процветающим.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "өркендеген",
+      "дәулетті"
+    ],
+    "exampleKk": "Аймақтың әл-ауқаты артты.",
+    "noteKk": ""
   },
   {
     "id": "u3-026",
@@ -2222,7 +3040,14 @@ window.LEXI_WORDS = [
     "example": "The business is now profitable.",
     "exampleRu": "Теперь бизнес приносит прибыль.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "пайдалы",
+      "табысты",
+      "рентабельді"
+    ],
+    "exampleKk": "Кәсіпорын қазір пайда әкеледі.",
+    "noteKk": ""
   },
   {
     "id": "u3-027",
@@ -2237,7 +3062,13 @@ window.LEXI_WORDS = [
     "example": "Consider the consequences of the decision.",
     "exampleRu": "Обдумай последствия решения.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "салдар",
+      "салдарлар"
+    ],
+    "exampleKk": "Шешімнің салдарын ескер.",
+    "noteKk": ""
   },
   {
     "id": "u3-028",
@@ -2252,7 +3083,12 @@ window.LEXI_WORDS = [
     "example": "The economy changed over the decade.",
     "exampleRu": "Экономика изменилась за десятилетие.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "онжылдық"
+    ],
+    "exampleKk": "Онжылдық ішінде экономика өзгерді.",
+    "noteKk": ""
   },
   {
     "id": "u3-029",
@@ -2268,7 +3104,13 @@ window.LEXI_WORDS = [
     "example": "A lack of experience can make finding work harder.",
     "exampleRu": "Недостаток опыта может затруднять поиск работы.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "жетіспеушілік",
+      "тапшылық"
+    ],
+    "exampleKk": "Тәжірибенің жетіспеуі жұмыс табуды қиындатуы мүмкін.",
+    "noteKk": ""
   },
   {
     "id": "u3-030",
@@ -2285,7 +3127,12 @@ window.LEXI_WORDS = [
     "note": "",
     "aliases": [
       "labor market"
-    ]
+    ],
+    "kk": [
+      "еңбек нарығы"
+    ],
+    "exampleKk": "Түлектер еңбек нарығына қадам басып жатыр.",
+    "noteKk": ""
   },
   {
     "id": "u3-031",
@@ -2301,7 +3148,13 @@ window.LEXI_WORDS = [
     "example": "The training gave her a foothold in the labour market.",
     "exampleRu": "Обучение дало ей возможность закрепиться на рынке труда.",
     "note": "В тексте о трудоустройстве — возможность закрепиться на рынке труда.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "орнығу мүмкіндігі",
+      "берік орын"
+    ],
+    "exampleKk": "Оқу оған еңбек нарығында орнығуға мүмкіндік берді.",
+    "noteKk": "Жұмысқа орналасу туралы мәтінде — еңбек нарығында орнығу мүмкіндігі."
   },
   {
     "id": "u3-032",
@@ -2317,7 +3170,13 @@ window.LEXI_WORDS = [
     "example": "He has been out of work for a month.",
     "exampleRu": "Он уже месяц без работы.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "жұмыссыз",
+      "жұмысы жоқ"
+    ],
+    "exampleKk": "Ол бір айдан бері жұмыссыз.",
+    "noteKk": ""
   },
   {
     "id": "u3-033",
@@ -2333,7 +3192,13 @@ window.LEXI_WORDS = [
     "example": "An apprenticeship combines work and training.",
     "exampleRu": "Производственное обучение объединяет работу и подготовку.",
     "note": "Обучение профессии через работу с более опытным человеком; не любая стажировка.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "өндірістік оқыту",
+      "шәкірттік"
+    ],
+    "exampleKk": "Өндірістік оқыту жұмыс пен оқуды ұштастырады.",
+    "noteKk": "Тәжірибелі маманмен бірге жұмыс істеп, кәсіп үйрену; кез келген тағылымдаманы білдірмейді."
   },
   {
     "id": "u3-034",
@@ -2348,7 +3213,13 @@ window.LEXI_WORDS = [
     "example": "The course supports a smooth transition to work.",
     "exampleRu": "Курс способствует плавному переходу к работе.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "бірқалыпты ауысу",
+      "біртіндеп көшу"
+    ],
+    "exampleKk": "Курс еңбекке біртіндеп көшуге көмектеседі.",
+    "noteKk": ""
   },
   {
     "id": "u3-035",
@@ -2363,7 +3234,13 @@ window.LEXI_WORDS = [
     "example": "Education can improve your career prospects.",
     "exampleRu": "Образование может улучшить твои карьерные перспективы.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "келешек мүмкіндіктер",
+      "перспективалар"
+    ],
+    "exampleKk": "Білім мансаптық мүмкіндіктеріңді арттыра алады.",
+    "noteKk": ""
   },
   {
     "id": "u3-036",
@@ -2379,7 +3256,13 @@ window.LEXI_WORDS = [
     "example": "Prolonged unemployment can affect confidence.",
     "exampleRu": "Затяжная безработица может повлиять на уверенность в себе.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ұзаққа созылған",
+      "созылмалы"
+    ],
+    "exampleKk": "Ұзаққа созылған жұмыссыздық өзіңе деген сенімге әсер етуі мүмкін.",
+    "noteKk": ""
   },
   {
     "id": "u3-037",
@@ -2394,7 +3277,12 @@ window.LEXI_WORDS = [
     "example": "The economy began to recover.",
     "exampleRu": "Экономика начала восстанавливаться.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "қалпына келу"
+    ],
+    "exampleKk": "Экономика қалпына келе бастады.",
+    "noteKk": ""
   },
   {
     "id": "u3-038",
@@ -2412,7 +3300,13 @@ window.LEXI_WORDS = [
     "note": "Неправильный глагол: rise → rose → risen. Rise by — на сколько; rise to — до какого уровня.",
     "aliases": [
       "rise"
-    ]
+    ],
+    "kk": [
+      "өсу",
+      "көтерілу"
+    ],
+    "exampleKk": "Өткен айда бағалар өсті.",
+    "noteKk": "Бұрыс етістік: rise → rose → risen. Rise by — қаншаға; rise to — қандай деңгейге дейін."
   },
   {
     "id": "u3-039",
@@ -2429,7 +3323,15 @@ window.LEXI_WORDS = [
     "example": "The number increased by ten percent.",
     "exampleRu": "Число увеличилось на десять процентов.",
     "note": "Increase by 10% — увеличиться на 10%; increase to 10% — увеличиться до 10%.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "арту",
+      "өсу",
+      "өсім",
+      "ұлғаю"
+    ],
+    "exampleKk": "Саны он пайызға артты.",
+    "noteKk": "Increase by 10% — 10%-ға арту; increase to 10% — 10%-ға дейін арту."
   },
   {
     "id": "u3-040",
@@ -2445,7 +3347,13 @@ window.LEXI_WORDS = [
     "example": "Unemployment climbed sharply.",
     "exampleRu": "Безработица резко выросла.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "өсу",
+      "көтерілу"
+    ],
+    "exampleKk": "Жұмыссыздық күрт өсті.",
+    "noteKk": ""
   },
   {
     "id": "u3-041",
@@ -2462,7 +3370,14 @@ window.LEXI_WORDS = [
     "example": "Costs decreased gradually.",
     "exampleRu": "Расходы постепенно уменьшились.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "азаю",
+      "төмендеу",
+      "кему"
+    ],
+    "exampleKk": "Шығындар біртіндеп азайды.",
+    "noteKk": ""
   },
   {
     "id": "u3-042",
@@ -2479,7 +3394,14 @@ window.LEXI_WORDS = [
     "example": "Output began to decline.",
     "exampleRu": "Объём производства начал снижаться.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "төмендеу",
+      "құлдырау",
+      "кему"
+    ],
+    "exampleKk": "Өндіріс көлемі төмендей бастады.",
+    "noteKk": ""
   },
   {
     "id": "u3-043",
@@ -2497,7 +3419,14 @@ window.LEXI_WORDS = [
     "note": "Неправильный глагол: fall → fell → fallen.",
     "aliases": [
       "fall"
-    ]
+    ],
+    "kk": [
+      "құлау",
+      "төмендеу",
+      "түсу"
+    ],
+    "exampleKk": "Көрсеткіш он пайызға дейін төмендеді.",
+    "noteKk": "Бұрыс етістік: fall → fell → fallen."
   },
   {
     "id": "u3-044",
@@ -2513,7 +3442,14 @@ window.LEXI_WORDS = [
     "example": "There was a sudden drop in income.",
     "exampleRu": "Произошло внезапное падение доходов.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "құлдырау",
+      "төмендеу",
+      "азаю"
+    ],
+    "exampleKk": "Табыс кенеттен төмендеді.",
+    "noteKk": ""
   },
   {
     "id": "u3-045",
@@ -2528,7 +3464,12 @@ window.LEXI_WORDS = [
     "example": "Employment increased gradually.",
     "exampleRu": "Занятость увеличивалась постепенно.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "біртіндеп"
+    ],
+    "exampleKk": "Жұмыспен қамту біртіндеп артты.",
+    "noteKk": ""
   },
   {
     "id": "u3-046",
@@ -2544,7 +3485,13 @@ window.LEXI_WORDS = [
     "example": "Output grew steadily.",
     "exampleRu": "Объём производства устойчиво рос.",
     "note": "Steady — прилагательное; steadily — наречие. Steady growth / grow steadily.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "бірқалыпты",
+      "тұрақты түрде"
+    ],
+    "exampleKk": "Өндіріс көлемі тұрақты түрде өсті.",
+    "noteKk": "Steady — сын есім; steadily — үстеу. Steady growth — тұрақты өсім; grow steadily — тұрақты түрде өсу."
   },
   {
     "id": "u3-047",
@@ -2559,7 +3506,13 @@ window.LEXI_WORDS = [
     "example": "Prices fell sharply.",
     "exampleRu": "Цены резко упали.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "күрт",
+      "шұғыл"
+    ],
+    "exampleKk": "Бағалар күрт төмендеді.",
+    "noteKk": ""
   },
   {
     "id": "u3-048",
@@ -2576,7 +3529,14 @@ window.LEXI_WORDS = [
     "example": "The number changed dramatically.",
     "exampleRu": "Число значительно изменилось.",
     "note": "В описании графика — резко / значительно, не «драматично» в театральном смысле.",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "айтарлықтай",
+      "күрт",
+      "өте қатты"
+    ],
+    "exampleKk": "Саны айтарлықтай өзгерді.",
+    "noteKk": "Графикті сипаттағанда — күрт не айтарлықтай; театрдағы драмалық мағынада емес."
   },
   {
     "id": "u3-049",
@@ -2592,7 +3552,14 @@ window.LEXI_WORDS = [
     "example": "Income rose slightly.",
     "exampleRu": "Доход немного вырос.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "сәл",
+      "аздап",
+      "шамалы"
+    ],
+    "exampleKk": "Табыс сәл өсті.",
+    "noteKk": ""
   },
   {
     "id": "u3-050",
@@ -2607,7 +3574,13 @@ window.LEXI_WORDS = [
     "example": "The trend changed suddenly.",
     "exampleRu": "Тенденция изменилась внезапно.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "кенеттен",
+      "күтпеген жерден"
+    ],
+    "exampleKk": "Үрдіс кенеттен өзгерді.",
+    "noteKk": ""
   },
   {
     "id": "u3-051",
@@ -2622,7 +3595,13 @@ window.LEXI_WORDS = [
     "example": "The economy recovered slowly.",
     "exampleRu": "Экономика восстанавливалась медленно.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "баяу",
+      "ақырын"
+    ],
+    "exampleKk": "Экономика баяу қалпына келді.",
+    "noteKk": ""
   },
   {
     "id": "u3-052",
@@ -2637,7 +3616,14 @@ window.LEXI_WORDS = [
     "example": "There was a minimal change.",
     "exampleRu": "Изменение было минимальным.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ең аз",
+      "болмашы",
+      "минималды"
+    ],
+    "exampleKk": "Болмашы өзгеріс болды.",
+    "noteKk": ""
   },
   {
     "id": "u3-053",
@@ -2653,7 +3639,13 @@ window.LEXI_WORDS = [
     "example": "The graph shows steady growth.",
     "exampleRu": "График показывает устойчивый рост.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тұрақты",
+      "бірқалыпты"
+    ],
+    "exampleKk": "График тұрақты өсімді көрсетеді.",
+    "noteKk": ""
   },
   {
     "id": "u3-054",
@@ -2669,7 +3661,13 @@ window.LEXI_WORDS = [
     "example": "The figures show an upward trend.",
     "exampleRu": "Данные показывают тенденцию роста.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "өсу үрдісі",
+      "жоғарылау үрдісі"
+    ],
+    "exampleKk": "Сандар өсу үрдісін көрсетеді.",
+    "noteKk": ""
   },
   {
     "id": "u3-055",
@@ -2685,7 +3683,13 @@ window.LEXI_WORDS = [
     "example": "A downward trend began in May.",
     "exampleRu": "Тенденция снижения началась в мае.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "төмендеу үрдісі",
+      "кему үрдісі"
+    ],
+    "exampleKk": "Төмендеу үрдісі мамырда басталды.",
+    "noteKk": ""
   },
   {
     "id": "u3-056",
@@ -2701,7 +3705,13 @@ window.LEXI_WORDS = [
     "example": "Output reached its highest point in June.",
     "exampleRu": "Объём производства достиг наивысшего уровня в июне.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ең жоғары нүкте",
+      "ең жоғары деңгей"
+    ],
+    "exampleKk": "Өндіріс көлемі маусымда ең жоғары деңгейіне жетті.",
+    "noteKk": ""
   },
   {
     "id": "u3-057",
@@ -2717,7 +3727,13 @@ window.LEXI_WORDS = [
     "example": "Sales reached their lowest point in winter.",
     "exampleRu": "Продажи достигли самого низкого уровня зимой.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "ең төменгі нүкте",
+      "ең төменгі деңгей"
+    ],
+    "exampleKk": "Сату көлемі қыста ең төменгі деңгейіне жетті.",
+    "noteKk": ""
   },
   {
     "id": "u3-058",
@@ -2732,7 +3748,13 @@ window.LEXI_WORDS = [
     "example": "Prices were low at the beginning of the year.",
     "exampleRu": "В начале года цены были низкими.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "басында",
+      "бастапқыда"
+    ],
+    "exampleKk": "Жыл басында бағалар төмен болды.",
+    "noteKk": ""
   },
   {
     "id": "u3-059",
@@ -2747,7 +3769,14 @@ window.LEXI_WORDS = [
     "example": "Both figures increased simultaneously.",
     "exampleRu": "Оба показателя выросли одновременно.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "бір мезгілде",
+      "бір уақытта",
+      "қатар"
+    ],
+    "exampleKk": "Екі көрсеткіш бір мезгілде өсті.",
+    "noteKk": ""
   },
   {
     "id": "u3-060",
@@ -2763,7 +3792,14 @@ window.LEXI_WORDS = [
     "example": "Your interpretation of the graph is clear.",
     "exampleRu": "Твоя интерпретация графика понятна.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "түсіндіру",
+      "түсіндірме",
+      "интерпретация"
+    ],
+    "exampleKk": "Графикті түсіндіруің анық.",
+    "noteKk": ""
   },
   {
     "id": "u3-061",
@@ -2779,7 +3815,13 @@ window.LEXI_WORDS = [
     "example": "These notes are invaluable for revision.",
     "exampleRu": "Эти записи неоценимы для повторения.",
     "note": "Значит «чрезвычайно ценный», а не «бесполезный» или «ничего не стоящий».",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "аса құнды",
+      "баға жетпес"
+    ],
+    "exampleKk": "Бұл жазбалар қайталау үшін аса құнды.",
+    "noteKk": "Аса құнды дегенді білдіреді; пайдасыз немесе түкке тұрғысыз емес."
   },
   {
     "id": "u3-062",
@@ -2795,7 +3837,14 @@ window.LEXI_WORDS = [
     "example": "The difference became apparent.",
     "exampleRu": "Разница стала очевидной.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "айқын",
+      "анық",
+      "көзге көрінетін"
+    ],
+    "exampleKk": "Айырмашылық айқын болды.",
+    "noteKk": ""
   },
   {
     "id": "u3-063",
@@ -2812,7 +3861,12 @@ window.LEXI_WORDS = [
     "note": "Из 10% в 11%: +1 процентный пункт. Это не то же самое, что относительный рост на 1%.",
     "aliases": [
       "percentage points"
-    ]
+    ],
+    "kk": [
+      "пайыздық тармақ"
+    ],
+    "exampleKk": "Көрсеткіш бір пайыздық тармаққа өсті.",
+    "noteKk": "10%-дан 11%-ға: +1 пайыздық тармақ. Бұл салыстырмалы түрде 1%-ға өсумен бірдей емес."
   },
   {
     "id": "u3-064",
@@ -2828,7 +3882,13 @@ window.LEXI_WORDS = [
     "example": "The rate of inflation fell.",
     "exampleRu": "Уровень инфляции снизился.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "инфляция деңгейі",
+      "инфляция қарқыны"
+    ],
+    "exampleKk": "Инфляция деңгейі төмендеді.",
+    "noteKk": ""
   },
   {
     "id": "u3-065",
@@ -2843,7 +3903,12 @@ window.LEXI_WORDS = [
     "example": "Energy consumption increased.",
     "exampleRu": "Потребление энергии выросло.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "тұтыну"
+    ],
+    "exampleKk": "Энергия тұтыну артты.",
+    "noteKk": ""
   },
   {
     "id": "u3-066",
@@ -2859,6 +3924,12 @@ window.LEXI_WORDS = [
     "example": "The report provides invaluable information.",
     "exampleRu": "Отчёт содержит чрезвычайно ценную информацию.",
     "note": "",
-    "aliases": []
+    "aliases": [],
+    "kk": [
+      "баға жетпес ақпарат",
+      "аса құнды ақпарат"
+    ],
+    "exampleKk": "Есеп аса құнды ақпарат береді.",
+    "noteKk": ""
   }
 ];

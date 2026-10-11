@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./assets/style.css">
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('lexi-theme')==='dark'?'dark':'light'}catch(e){}</script>
   <script defer src="./assets/words.js"></script>
+  <script defer src="./assets/i18n.js"></script>
   <script defer src="./assets/app.js"></script>
 </head>
 <body>
@@ -30,7 +31,7 @@
     <div class="local-label"><span class="status-dot"></span>Прогресс на этом устройстве</div>
   </aside>
   <div class="main-shell">
-    <header class="topbar"><div class="mobile-brand">lexi<span>.</span></div><div class="breadcrumb">Моя библиотека <span>/</span> <strong>Academic English</strong></div><div class="top-actions"><span class="streak-pill" id="streak-pill"></span><button class="icon-button theme-toggle" data-action="theme" aria-label="Переключить цветовую тему" title="Переключить тему"></button><button class="avatar" data-action="settings" aria-label="Настройки">L</button></div></header>
+    <header class="topbar"><div class="mobile-brand">lexi<span>.</span></div><div class="breadcrumb">Моя библиотека <span>/</span> <strong>Academic English</strong></div><div class="top-actions"><label class="language-picker"><span class="hidden">Язык обучения</span><select id="language-select" aria-label="Язык обучения"><option value="ru" lang="ru">Русский</option><option value="kk" lang="kk">Қазақша</option></select></label><span class="streak-pill" id="streak-pill"></span><button class="icon-button theme-toggle" data-action="theme" aria-label="Переключить цветовую тему" title="Переключить тему"></button><button class="avatar" data-action="settings" aria-label="Настройки">L</button></div></header>
     <main id="main" tabindex="-1"></main>
     <footer class="site-footer"><span>Учись понемногу. Вспоминай надолго.</span><span>lexi · independent study companion</span></footer>
   </div>

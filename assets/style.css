@@ -9,3 +9,23 @@
 @media(max-width:370px){main{padding-left:15px;padding-right:15px}.hero{padding:20px}.hero h2{font-size:29px}.hero-text{width:86%}.mobile-nav button{padding:6px 9px}.metric-name{font-size:8px}.chip{padding:8px 9px}.flash-card h2{font-size:33px}.flash-card.flipped h2{font-size:22px}.setup-fields{grid-template-columns:1fr}.setup-fields>div:first-child{grid-column:auto}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 @media(max-width:700px){.hero-text{width:100%}.hero h2{max-width:285px}.hero-art{opacity:.13;right:-76px;top:66px}.hero-tag{max-width:100%;font-size:7px;letter-spacing:.8px}.hero p{max-width:258px}.hero .hero-actions{position:relative;z-index:3}}
+
+/* Language switch stays visible on desktop and phones. */
+.language-picker { display: inline-flex; align-items: center; }
+.language-picker select { max-width: 124px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text); font: inherit; font-size: 13px; cursor: pointer; }
+.language-picker select:focus-visible { outline: 2px solid var(--accent, #327c64); outline-offset: 3px; }
+html[lang="kk"] .hero h2 { font-size: clamp(32px, 4vw, 53px); }
+html[lang="kk"] .word-en, html[lang="kk"] .word-ru { overflow-wrap: anywhere; }
+html[lang="kk"] .flash-card h2, html[lang="kk"] .question-panel h2 { overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  .top-actions { gap: 7px; }
+  .language-picker select { max-width: 110px; padding: 7px; font-size: 12px; }
+  html[lang="kk"] .mobile-nav button { font-size: 10px; }
+  html[lang="kk"] .study-actions { gap: 8px; }
+  html[lang="kk"] .rate-button { padding-left: 10px; padding-right: 10px; }
+}
+
+@media (max-width: 420px) {
+  .streak-pill .streak-label { display: none; }
+  .streak-pill { gap: 3px; white-space: nowrap; }
+}
