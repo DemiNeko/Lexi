@@ -1,0 +1,2864 @@
+/* Vocabulary: source selection + original Russian study aids. See SOURCES.md. */
+window.LEXI_WORDS = [
+  {
+    "id": "u1-001",
+    "unit": 1,
+    "en": "abstract",
+    "ru": [
+      "абстрактный",
+      "теоретический"
+    ],
+    "page": 14,
+    "pos": "adj",
+    "priority": true,
+    "example": "Abstract ideas can be difficult to explain.",
+    "exampleRu": "Абстрактные идеи бывает трудно объяснить.",
+    "note": "Противопоставляется practical и concrete: теоретическое, а не конкретное и осязаемое.",
+    "aliases": []
+  },
+  {
+    "id": "u1-002",
+    "unit": 1,
+    "en": "practical",
+    "ru": [
+      "практический"
+    ],
+    "page": 15,
+    "pos": "adj",
+    "priority": true,
+    "example": "We need practical experience.",
+    "exampleRu": "Нам нужен практический опыт.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-003",
+    "unit": 1,
+    "en": "conscious",
+    "ru": [
+      "осознанный"
+    ],
+    "page": 15,
+    "pos": "adj",
+    "priority": true,
+    "example": "Learning a language takes conscious effort.",
+    "exampleRu": "Изучение языка требует осознанных усилий.",
+    "note": "В Unit 1 — conscious effort: осознанное усилие. Consciousness — существительное.",
+    "aliases": []
+  },
+  {
+    "id": "u1-004",
+    "unit": 1,
+    "en": "associate",
+    "ru": [
+      "связывать",
+      "ассоциировать"
+    ],
+    "page": 15,
+    "pos": "v",
+    "priority": true,
+    "example": "I associate this word with a picture.",
+    "exampleRu": "Я связываю это слово с картинкой.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-005",
+    "unit": 1,
+    "en": "reflect",
+    "ru": [
+      "размышлять",
+      "обдумывать"
+    ],
+    "page": 15,
+    "pos": "v",
+    "priority": true,
+    "example": "Reflect on what you have learned.",
+    "exampleRu": "Обдумай то, что ты выучил.",
+    "note": "В этом разделе reflect on означает «обдумывать», не «отражать в зеркале».",
+    "aliases": []
+  },
+  {
+    "id": "u1-006",
+    "unit": 1,
+    "en": "reflection",
+    "ru": [
+      "размышление",
+      "рефлексия"
+    ],
+    "page": 21,
+    "pos": "n",
+    "priority": true,
+    "example": "Reflection helps us learn from mistakes.",
+    "exampleRu": "Размышление помогает нам учиться на ошибках.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-007",
+    "unit": 1,
+    "en": "accumulate",
+    "ru": [
+      "накапливать"
+    ],
+    "page": 15,
+    "pos": "v",
+    "priority": true,
+    "example": "You accumulate knowledge through practice.",
+    "exampleRu": "Ты накапливаешь знания благодаря практике.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-008",
+    "unit": 1,
+    "en": "knowledge",
+    "ru": [
+      "знания"
+    ],
+    "page": 15,
+    "pos": "n",
+    "priority": true,
+    "example": "She has a lot of knowledge about plants.",
+    "exampleRu": "У неё много знаний о растениях.",
+    "note": "Обычно неисчисляемое: knowledge, не knowledges.",
+    "aliases": []
+  },
+  {
+    "id": "u1-009",
+    "unit": 1,
+    "en": "experience",
+    "ru": [
+      "опыт"
+    ],
+    "page": 15,
+    "pos": "n",
+    "priority": false,
+    "example": "This course combines theory and experience.",
+    "exampleRu": "Этот курс объединяет теорию и опыт.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-010",
+    "unit": 1,
+    "en": "achieve",
+    "ru": [
+      "достигать"
+    ],
+    "page": 15,
+    "pos": "v",
+    "priority": false,
+    "example": "Practice helps you achieve your goals.",
+    "exampleRu": "Практика помогает достигать целей.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-011",
+    "unit": 1,
+    "en": "approach",
+    "ru": [
+      "подход",
+      "метод"
+    ],
+    "page": 23,
+    "pos": "n",
+    "priority": true,
+    "example": "Try a different approach to learning.",
+    "exampleRu": "Попробуй другой подход к обучению.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-012",
+    "unit": 1,
+    "en": "adaptation",
+    "ru": [
+      "адаптация",
+      "приспособление"
+    ],
+    "page": 15,
+    "pos": "n",
+    "priority": false,
+    "example": "Adaptation to a new course takes time.",
+    "exampleRu": "Адаптация к новому курсу требует времени.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-013",
+    "unit": 1,
+    "en": "aware",
+    "ru": [
+      "осознающий",
+      "осведомлённый"
+    ],
+    "page": 14,
+    "pos": "adj",
+    "priority": true,
+    "example": "Be aware of your learning habits.",
+    "exampleRu": "Осознавай свои привычки в учёбе.",
+    "note": "Частое сочетание: be aware of something — осознавать что-либо.",
+    "aliases": []
+  },
+  {
+    "id": "u1-014",
+    "unit": 1,
+    "en": "independent learning",
+    "ru": [
+      "самостоятельное обучение"
+    ],
+    "page": 19,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Independent learning requires planning.",
+    "exampleRu": "Самостоятельное обучение требует планирования.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-015",
+    "unit": 1,
+    "en": "concrete experience",
+    "ru": [
+      "конкретный опыт"
+    ],
+    "page": 20,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Concrete experience helps her understand the idea.",
+    "exampleRu": "Конкретный опыт помогает ей понять идею.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-016",
+    "unit": 1,
+    "en": "reflective observation",
+    "ru": [
+      "рефлексивное наблюдение",
+      "наблюдение с осмыслением"
+    ],
+    "page": 20,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Reflective observation means thinking about what you see.",
+    "exampleRu": "Рефлексивное наблюдение означает осмысление того, что ты видишь.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-017",
+    "unit": 1,
+    "en": "abstract conceptualisation",
+    "ru": [
+      "абстрактная концептуализация",
+      "формирование абстрактных понятий"
+    ],
+    "page": 20,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Abstract conceptualisation involves developing theories.",
+    "exampleRu": "Абстрактная концептуализация включает разработку теорий.",
+    "note": "",
+    "aliases": [
+      "abstract conceptualization"
+    ]
+  },
+  {
+    "id": "u1-018",
+    "unit": 1,
+    "en": "active experimentation",
+    "ru": [
+      "активное экспериментирование"
+    ],
+    "page": 20,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Active experimentation lets us test an idea.",
+    "exampleRu": "Активное экспериментирование позволяет проверить идею.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-019",
+    "unit": 1,
+    "en": "diverging",
+    "ru": [
+      "дивергентный стиль обучения",
+      "рассмотрение с разных сторон"
+    ],
+    "page": 20,
+    "pos": "n",
+    "priority": true,
+    "example": "A diverging style considers different points of view.",
+    "exampleRu": "Дивергентный стиль предполагает рассмотрение разных точек зрения.",
+    "note": "В модели из текста: конкретный опыт + рефлексивное наблюдение. Перевод дан для названия стиля, а не для любого употребления diverging.",
+    "aliases": []
+  },
+  {
+    "id": "u1-020",
+    "unit": 1,
+    "en": "assimilating",
+    "ru": [
+      "ассимилирующий стиль обучения",
+      "усвоение и систематизация информации"
+    ],
+    "page": 20,
+    "pos": "n",
+    "priority": true,
+    "example": "An assimilating style values clear theories.",
+    "exampleRu": "Ассимилирующий стиль ценит ясные теории.",
+    "note": "В модели из текста: рефлексивное наблюдение + абстрактная концептуализация.",
+    "aliases": []
+  },
+  {
+    "id": "u1-021",
+    "unit": 1,
+    "en": "converging",
+    "ru": [
+      "конвергентный стиль обучения",
+      "практическое применение идей"
+    ],
+    "page": 20,
+    "pos": "n",
+    "priority": true,
+    "example": "A converging style focuses on solving practical problems.",
+    "exampleRu": "Конвергентный стиль сосредоточен на решении практических задач.",
+    "note": "В модели из текста: абстрактная концептуализация + активное экспериментирование.",
+    "aliases": []
+  },
+  {
+    "id": "u1-022",
+    "unit": 1,
+    "en": "accommodating",
+    "ru": [
+      "аккомодирующий стиль обучения",
+      "обучение через действие и опыт"
+    ],
+    "page": 21,
+    "pos": "n",
+    "priority": true,
+    "example": "An accommodating style favours learning by doing.",
+    "exampleRu": "Аккомодирующий стиль предпочитает обучение через действие.",
+    "note": "В модели из текста: активное экспериментирование + конкретный опыт.",
+    "aliases": []
+  },
+  {
+    "id": "u1-023",
+    "unit": 1,
+    "en": "brainstorming",
+    "ru": [
+      "мозговой штурм"
+    ],
+    "page": 20,
+    "pos": "n",
+    "priority": true,
+    "example": "We used brainstorming to collect ideas.",
+    "exampleRu": "Мы использовали мозговой штурм для сбора идей.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-024",
+    "unit": 1,
+    "en": "concise",
+    "ru": [
+      "краткий",
+      "лаконичный"
+    ],
+    "page": 20,
+    "pos": "adj",
+    "priority": true,
+    "example": "Keep your explanation concise.",
+    "exampleRu": "Сделай объяснение кратким.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-025",
+    "unit": 1,
+    "en": "theory",
+    "ru": [
+      "теория"
+    ],
+    "page": 20,
+    "pos": "n",
+    "priority": false,
+    "example": "We tested the theory in class.",
+    "exampleRu": "Мы проверили теорию на занятии.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-026",
+    "unit": 1,
+    "en": "intuition",
+    "ru": [
+      "интуиция"
+    ],
+    "page": 21,
+    "pos": "n",
+    "priority": true,
+    "example": "She relied on intuition rather than analysis.",
+    "exampleRu": "Она опиралась на интуицию, а не на анализ.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-027",
+    "unit": 1,
+    "en": "trial and error",
+    "ru": [
+      "метод проб и ошибок"
+    ],
+    "page": 21,
+    "pos": "phrase",
+    "priority": true,
+    "example": "I learned the program through trial and error.",
+    "exampleRu": "Я освоил программу методом проб и ошибок.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-028",
+    "unit": 1,
+    "en": "hands-on",
+    "ru": [
+      "практический",
+      "связанный с непосредственным участием"
+    ],
+    "page": 21,
+    "pos": "adj",
+    "priority": true,
+    "example": "The course includes hands-on activities.",
+    "exampleRu": "Курс включает практические задания.",
+    "note": "",
+    "aliases": [
+      "hands on"
+    ]
+  },
+  {
+    "id": "u1-029",
+    "unit": 1,
+    "en": "tendency",
+    "ru": [
+      "склонность",
+      "тенденция"
+    ],
+    "page": 21,
+    "pos": "n",
+    "priority": false,
+    "example": "He has a tendency to work alone.",
+    "exampleRu": "У него есть склонность работать одному.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-030",
+    "unit": 1,
+    "en": "conclusion",
+    "ru": [
+      "вывод",
+      "заключение"
+    ],
+    "page": 25,
+    "pos": "n",
+    "priority": true,
+    "example": "Your conclusion should follow from the evidence.",
+    "exampleRu": "Твой вывод должен следовать из доказательств.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-031",
+    "unit": 1,
+    "en": "draw a conclusion",
+    "ru": [
+      "сделать вывод"
+    ],
+    "page": 25,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Do not draw a conclusion too quickly.",
+    "exampleRu": "Не делай вывод слишком быстро.",
+    "note": "Draw здесь означает «делать», а не «рисовать». Близко по смыслу к reach / come to a conclusion.",
+    "aliases": [
+      "draw conclusions"
+    ]
+  },
+  {
+    "id": "u1-032",
+    "unit": 1,
+    "en": "reach a conclusion",
+    "ru": [
+      "прийти к выводу"
+    ],
+    "page": 25,
+    "pos": "phrase",
+    "priority": true,
+    "example": "We reached a conclusion after the discussion.",
+    "exampleRu": "Мы пришли к выводу после обсуждения.",
+    "note": "Учи как сочетание целиком. Близко к draw / come to a conclusion.",
+    "aliases": [
+      "reach conclusions"
+    ]
+  },
+  {
+    "id": "u1-033",
+    "unit": 1,
+    "en": "anticipate",
+    "ru": [
+      "предвидеть",
+      "ожидать"
+    ],
+    "page": 24,
+    "pos": "v",
+    "priority": true,
+    "example": "Try to anticipate possible questions.",
+    "exampleRu": "Постарайся предвидеть возможные вопросы.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-034",
+    "unit": 1,
+    "en": "appreciate",
+    "ru": [
+      "ценить",
+      "осознавать ценность"
+    ],
+    "page": 24,
+    "pos": "v",
+    "priority": true,
+    "example": "I appreciate your help with the essay.",
+    "exampleRu": "Я ценю твою помощь с эссе.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-035",
+    "unit": 1,
+    "en": "cooperate",
+    "ru": [
+      "сотрудничать"
+    ],
+    "page": 24,
+    "pos": "v",
+    "priority": true,
+    "example": "Students cooperate on group projects.",
+    "exampleRu": "Студенты сотрудничают при работе над групповыми проектами.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-036",
+    "unit": 1,
+    "en": "construct",
+    "ru": [
+      "строить",
+      "создавать"
+    ],
+    "page": 24,
+    "pos": "v",
+    "priority": true,
+    "example": "Construct a clear argument.",
+    "exampleRu": "Построй ясную аргументацию.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-037",
+    "unit": 1,
+    "en": "exhibit",
+    "ru": [
+      "демонстрировать",
+      "проявлять"
+    ],
+    "page": 24,
+    "pos": "v",
+    "priority": true,
+    "example": "Students exhibit different learning habits.",
+    "exampleRu": "Студенты демонстрируют разные привычки в учёбе.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-038",
+    "unit": 1,
+    "en": "isolate",
+    "ru": [
+      "изолировать",
+      "отделять"
+    ],
+    "page": 24,
+    "pos": "v",
+    "priority": true,
+    "example": "Isolate the main problem before you begin.",
+    "exampleRu": "Выдели главную проблему, прежде чем начать.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-039",
+    "unit": 1,
+    "en": "select",
+    "ru": [
+      "выбирать",
+      "отбирать"
+    ],
+    "page": 24,
+    "pos": "v",
+    "priority": true,
+    "example": "Select the most useful sources.",
+    "exampleRu": "Выбери самые полезные источники.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-040",
+    "unit": 1,
+    "en": "compulsory",
+    "ru": [
+      "обязательный"
+    ],
+    "page": 20,
+    "pos": "adj",
+    "priority": true,
+    "example": "This reading is compulsory for all students.",
+    "exampleRu": "Этот материал обязателен для чтения всем студентам.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-041",
+    "unit": 1,
+    "en": "gist",
+    "ru": [
+      "основная суть",
+      "главная мысль"
+    ],
+    "page": 20,
+    "pos": "n",
+    "priority": true,
+    "example": "Read quickly to get the gist.",
+    "exampleRu": "Прочитай быстро, чтобы уловить основную суть.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-042",
+    "unit": 1,
+    "en": "scan reading",
+    "ru": [
+      "поисковое чтение",
+      "чтение для поиска информации"
+    ],
+    "page": 18,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Use scan reading to find a date.",
+    "exampleRu": "Используй поисковое чтение, чтобы найти дату.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-043",
+    "unit": 1,
+    "en": "key term",
+    "ru": [
+      "ключевой термин"
+    ],
+    "page": 14,
+    "pos": "phrase",
+    "priority": false,
+    "example": "Explain each key term in your essay.",
+    "exampleRu": "Объясни каждый ключевой термин в своём эссе.",
+    "note": "",
+    "aliases": [
+      "key terms"
+    ]
+  },
+  {
+    "id": "u1-044",
+    "unit": 1,
+    "en": "relevant",
+    "ru": [
+      "относящийся к теме",
+      "уместный"
+    ],
+    "page": 19,
+    "pos": "adj",
+    "priority": true,
+    "example": "Choose information that is relevant to your topic.",
+    "exampleRu": "Выбирай информацию, которая относится к твоей теме.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-045",
+    "unit": 1,
+    "en": "extract",
+    "ru": [
+      "отрывок",
+      "фрагмент текста"
+    ],
+    "page": 15,
+    "pos": "n",
+    "priority": false,
+    "example": "Read the extract and identify its main idea.",
+    "exampleRu": "Прочитай отрывок и определи его главную мысль.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-046",
+    "unit": 1,
+    "en": "preference",
+    "ru": [
+      "предпочтение"
+    ],
+    "page": 22,
+    "pos": "n",
+    "priority": false,
+    "example": "She has a preference for visual information.",
+    "exampleRu": "Она предпочитает визуальную информацию.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-047",
+    "unit": 1,
+    "en": "category",
+    "ru": [
+      "категория"
+    ],
+    "page": 22,
+    "pos": "n",
+    "priority": false,
+    "example": "Put each word into a category.",
+    "exampleRu": "Отнеси каждое слово к категории.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-048",
+    "unit": 1,
+    "en": "visual",
+    "ru": [
+      "визуальный",
+      "зрительный"
+    ],
+    "page": 23,
+    "pos": "adj",
+    "priority": false,
+    "example": "A diagram is a form of visual information.",
+    "exampleRu": "Схема — это форма визуальной информации.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-049",
+    "unit": 1,
+    "en": "auditory",
+    "ru": [
+      "слуховой",
+      "аудиальный"
+    ],
+    "page": 23,
+    "pos": "adj",
+    "priority": true,
+    "example": "Auditory information is received through hearing.",
+    "exampleRu": "Слуховая информация воспринимается через слух.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-050",
+    "unit": 1,
+    "en": "kinaesthetic",
+    "ru": [
+      "кинестетический",
+      "связанный с движением и ощущениями"
+    ],
+    "page": 23,
+    "pos": "adj",
+    "priority": true,
+    "example": "Kinaesthetic activities involve movement.",
+    "exampleRu": "Кинестетические занятия предполагают движение.",
+    "note": "",
+    "aliases": [
+      "kinesthetic"
+    ]
+  },
+  {
+    "id": "u1-051",
+    "unit": 1,
+    "en": "on loan",
+    "ru": [
+      "выдан на руки",
+      "временно выдан"
+    ],
+    "page": 18,
+    "pos": "phrase",
+    "priority": true,
+    "example": "The book is on loan until Friday.",
+    "exampleRu": "Книга выдана на руки до пятницы.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-052",
+    "unit": 1,
+    "en": "available",
+    "ru": [
+      "доступный",
+      "имеющийся в наличии"
+    ],
+    "page": 18,
+    "pos": "adj",
+    "priority": false,
+    "example": "The book is available in the library.",
+    "exampleRu": "Книга доступна в библиотеке.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-053",
+    "unit": 1,
+    "en": "reserve",
+    "ru": [
+      "бронировать",
+      "резервировать"
+    ],
+    "page": 17,
+    "pos": "v",
+    "priority": false,
+    "example": "Can I reserve this book?",
+    "exampleRu": "Можно забронировать эту книгу?",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-054",
+    "unit": 1,
+    "en": "collocation",
+    "ru": [
+      "устойчивое сочетание слов",
+      "словосочетание"
+    ],
+    "page": 25,
+    "pos": "n",
+    "priority": true,
+    "example": "Learn the collocation with the word.",
+    "exampleRu": "Учи словосочетание вместе со словом.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-055",
+    "unit": 1,
+    "en": "awareness",
+    "ru": [
+      "осознание",
+      "осведомлённость"
+    ],
+    "page": 24,
+    "pos": "n",
+    "priority": true,
+    "example": "Awareness of your habits can help you study.",
+    "exampleRu": "Осознание своих привычек может помочь тебе в учёбе.",
+    "note": "Форма существительного от aware из упражнения на стр. 24.",
+    "aliases": []
+  },
+  {
+    "id": "u1-056",
+    "unit": 1,
+    "en": "association",
+    "ru": [
+      "связь",
+      "ассоциация"
+    ],
+    "page": 24,
+    "pos": "n",
+    "priority": true,
+    "example": "A picture creates an association with the word.",
+    "exampleRu": "Картинка создаёт ассоциацию со словом.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u1-057",
+    "unit": 1,
+    "en": "consciousness",
+    "ru": [
+      "сознание",
+      "осознанность"
+    ],
+    "page": 24,
+    "pos": "n",
+    "priority": true,
+    "example": "Consciousness is the state of being aware.",
+    "exampleRu": "Сознание — это состояние осознания.",
+    "note": "Форма существительного из упражнения на стр. 24.",
+    "aliases": []
+  },
+  {
+    "id": "u1-058",
+    "unit": 1,
+    "en": "cooperation",
+    "ru": [
+      "сотрудничество"
+    ],
+    "page": 24,
+    "pos": "n",
+    "priority": false,
+    "example": "Cooperation is important in a team.",
+    "exampleRu": "Сотрудничество важно в команде.",
+    "note": "Форма существительного от cooperate из упражнения на стр. 24.",
+    "aliases": []
+  },
+  {
+    "id": "u1-059",
+    "unit": 1,
+    "en": "selection",
+    "ru": [
+      "выбор",
+      "отбор"
+    ],
+    "page": 24,
+    "pos": "n",
+    "priority": false,
+    "example": "The selection of sources takes time.",
+    "exampleRu": "Отбор источников требует времени.",
+    "note": "Форма существительного от select из упражнения на стр. 24.",
+    "aliases": []
+  },
+  {
+    "id": "u1-060",
+    "unit": 1,
+    "en": "by contrast",
+    "ru": [
+      "в отличие от этого",
+      "напротив"
+    ],
+    "page": 23,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Some learners prefer theory; by contrast, others prefer practice.",
+    "exampleRu": "Одни учащиеся предпочитают теорию; другие, напротив, предпочитают практику.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-001",
+    "unit": 2,
+    "en": "organism",
+    "ru": [
+      "организм"
+    ],
+    "page": 26,
+    "pos": "n",
+    "priority": true,
+    "example": "Each organism plays a role in its environment.",
+    "exampleRu": "Каждый организм играет роль в своей среде.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-002",
+    "unit": 2,
+    "en": "ecosystem",
+    "ru": [
+      "экосистема"
+    ],
+    "page": 26,
+    "pos": "n",
+    "priority": true,
+    "example": "A forest is a complex ecosystem.",
+    "exampleRu": "Лес — это сложная экосистема.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-003",
+    "unit": 2,
+    "en": "environment",
+    "ru": [
+      "окружающая среда",
+      "среда обитания"
+    ],
+    "page": 26,
+    "pos": "n",
+    "priority": true,
+    "example": "Human activity changes the environment.",
+    "exampleRu": "Деятельность человека изменяет окружающую среду.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-004",
+    "unit": 2,
+    "en": "pollination",
+    "ru": [
+      "опыление"
+    ],
+    "page": 29,
+    "pos": "n",
+    "priority": true,
+    "example": "Pollination helps many plants produce seeds.",
+    "exampleRu": "Опыление помогает многим растениям образовывать семена.",
+    "note": "Действие или процесс. Pollinate — глагол, pollinator — тот, кто переносит пыльцу.",
+    "aliases": []
+  },
+  {
+    "id": "u2-005",
+    "unit": 2,
+    "en": "pollinate",
+    "ru": [
+      "опылять"
+    ],
+    "page": 29,
+    "pos": "v",
+    "priority": true,
+    "example": "Bees pollinate many flowering plants.",
+    "exampleRu": "Пчёлы опыляют многие цветковые растения.",
+    "note": "Глагол: опылять. Не путай с pollen — пыльца.",
+    "aliases": []
+  },
+  {
+    "id": "u2-006",
+    "unit": 2,
+    "en": "pollinator",
+    "ru": [
+      "опылитель"
+    ],
+    "page": 29,
+    "pos": "n",
+    "priority": true,
+    "example": "A bee is a pollinator.",
+    "exampleRu": "Пчела — это опылитель.",
+    "note": "Опылитель — организм. Pollination — процесс, pollen — вещество.",
+    "aliases": []
+  },
+  {
+    "id": "u2-007",
+    "unit": 2,
+    "en": "pollen",
+    "ru": [
+      "пыльца"
+    ],
+    "page": 29,
+    "pos": "n",
+    "priority": true,
+    "example": "The insect carries pollen between flowers.",
+    "exampleRu": "Насекомое переносит пыльцу между цветками.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-008",
+    "unit": 2,
+    "en": "beekeeper",
+    "ru": [
+      "пчеловод"
+    ],
+    "page": 29,
+    "pos": "n",
+    "priority": true,
+    "example": "The beekeeper checked the hive.",
+    "exampleRu": "Пчеловод проверил улей.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-009",
+    "unit": 2,
+    "en": "beehive",
+    "ru": [
+      "улей"
+    ],
+    "page": 29,
+    "pos": "n",
+    "priority": true,
+    "example": "There is a beehive near the garden.",
+    "exampleRu": "Рядом с садом находится улей.",
+    "note": "",
+    "aliases": [
+      "bee hive"
+    ]
+  },
+  {
+    "id": "u2-010",
+    "unit": 2,
+    "en": "honeybee",
+    "ru": [
+      "медоносная пчела"
+    ],
+    "page": 30,
+    "pos": "n",
+    "priority": true,
+    "example": "A honeybee visits many flowers.",
+    "exampleRu": "Медоносная пчела посещает много цветков.",
+    "note": "",
+    "aliases": [
+      "honey bee"
+    ]
+  },
+  {
+    "id": "u2-011",
+    "unit": 2,
+    "en": "colony",
+    "ru": [
+      "колония",
+      "пчелиная семья"
+    ],
+    "page": 30,
+    "pos": "n",
+    "priority": true,
+    "example": "A colony of bees lives in the hive.",
+    "exampleRu": "В улье живёт пчелиная семья.",
+    "note": "В тексте о пчёлах — колония или пчелиная семья, а не колония государства.",
+    "aliases": []
+  },
+  {
+    "id": "u2-012",
+    "unit": 2,
+    "en": "species",
+    "ru": [
+      "биологический вид",
+      "вид"
+    ],
+    "page": 30,
+    "pos": "n",
+    "priority": true,
+    "example": "Many species depend on flowering plants.",
+    "exampleRu": "Многие виды зависят от цветковых растений.",
+    "note": "Одинаковая форма для единственного и множественного числа: one species / many species.",
+    "aliases": []
+  },
+  {
+    "id": "u2-013",
+    "unit": 2,
+    "en": "insect",
+    "ru": [
+      "насекомое"
+    ],
+    "page": 30,
+    "pos": "n",
+    "priority": false,
+    "example": "This insect can transfer pollen.",
+    "exampleRu": "Это насекомое может переносить пыльцу.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-014",
+    "unit": 2,
+    "en": "flowering plant",
+    "ru": [
+      "цветковое растение"
+    ],
+    "page": 30,
+    "pos": "phrase",
+    "priority": true,
+    "example": "A flowering plant can attract pollinators.",
+    "exampleRu": "Цветковое растение может привлекать опылителей.",
+    "note": "",
+    "aliases": [
+      "flowering plants"
+    ]
+  },
+  {
+    "id": "u2-015",
+    "unit": 2,
+    "en": "crop",
+    "ru": [
+      "сельскохозяйственная культура",
+      "урожай"
+    ],
+    "page": 33,
+    "pos": "n",
+    "priority": true,
+    "example": "Farmers grow this crop for food.",
+    "exampleRu": "Фермеры выращивают эту культуру для получения пищи.",
+    "note": "В контексте этого юнита — сельскохозяйственная культура или урожай, не обрезка изображения.",
+    "aliases": []
+  },
+  {
+    "id": "u2-016",
+    "unit": 2,
+    "en": "pesticide",
+    "ru": [
+      "пестицид",
+      "средство против вредителей"
+    ],
+    "page": 33,
+    "pos": "n",
+    "priority": true,
+    "example": "A pesticide may harm useful insects.",
+    "exampleRu": "Пестицид может навредить полезным насекомым.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-017",
+    "unit": 2,
+    "en": "depend on",
+    "ru": [
+      "зависеть от"
+    ],
+    "page": 30,
+    "pos": "phrase",
+    "priority": true,
+    "example": "These plants depend on insects.",
+    "exampleRu": "Эти растения зависят от насекомых.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-018",
+    "unit": 2,
+    "en": "adaptability",
+    "ru": [
+      "способность адаптироваться",
+      "приспособляемость"
+    ],
+    "page": 30,
+    "pos": "n",
+    "priority": true,
+    "example": "Adaptability helps a species survive changes.",
+    "exampleRu": "Приспособляемость помогает виду пережить изменения.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-019",
+    "unit": 2,
+    "en": "indispensable",
+    "ru": [
+      "незаменимый",
+      "крайне необходимый"
+    ],
+    "page": 30,
+    "pos": "adj",
+    "priority": true,
+    "example": "Pollinators are indispensable to many crops.",
+    "exampleRu": "Опылители незаменимы для многих культур.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-020",
+    "unit": 2,
+    "en": "reliable",
+    "ru": [
+      "надёжный"
+    ],
+    "page": 30,
+    "pos": "adj",
+    "priority": true,
+    "example": "Use a reliable source of information.",
+    "exampleRu": "Используй надёжный источник информации.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-021",
+    "unit": 2,
+    "en": "competitor",
+    "ru": [
+      "конкурент"
+    ],
+    "page": 30,
+    "pos": "n",
+    "priority": true,
+    "example": "This species has a strong competitor.",
+    "exampleRu": "У этого вида есть сильный конкурент.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-022",
+    "unit": 2,
+    "en": "transfer",
+    "ru": [
+      "переносить",
+      "передавать"
+    ],
+    "page": 29,
+    "pos": "v",
+    "priority": true,
+    "example": "Insects transfer pollen from flower to flower.",
+    "exampleRu": "Насекомые переносят пыльцу с цветка на цветок.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-023",
+    "unit": 2,
+    "en": "enable",
+    "ru": [
+      "давать возможность",
+      "делать возможным"
+    ],
+    "page": 30,
+    "pos": "v",
+    "priority": true,
+    "example": "The new method enables faster research.",
+    "exampleRu": "Новый метод делает возможным более быстрое исследование.",
+    "note": "Конструкция: enable someone/something to do something.",
+    "aliases": []
+  },
+  {
+    "id": "u2-024",
+    "unit": 2,
+    "en": "estimate",
+    "ru": [
+      "оценивать приблизительно",
+      "приблизительно подсчитывать"
+    ],
+    "page": 30,
+    "pos": "v",
+    "priority": true,
+    "example": "Scientists estimate the number of insects.",
+    "exampleRu": "Учёные приблизительно подсчитывают число насекомых.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-025",
+    "unit": 2,
+    "en": "absence",
+    "ru": [
+      "отсутствие"
+    ],
+    "page": 33,
+    "pos": "n",
+    "priority": true,
+    "example": "The absence of bees can affect a crop.",
+    "exampleRu": "Отсутствие пчёл может повлиять на урожай.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-026",
+    "unit": 2,
+    "en": "population",
+    "ru": [
+      "популяция",
+      "население"
+    ],
+    "page": 33,
+    "pos": "n",
+    "priority": true,
+    "example": "The bee population has decreased.",
+    "exampleRu": "Популяция пчёл сократилась.",
+    "note": "В тексте о пчёлах прежде всего «популяция», а не население страны.",
+    "aliases": []
+  },
+  {
+    "id": "u2-027",
+    "unit": 2,
+    "en": "disappear",
+    "ru": [
+      "исчезать"
+    ],
+    "page": 33,
+    "pos": "v",
+    "priority": true,
+    "example": "Some insects may disappear from the area.",
+    "exampleRu": "Некоторые насекомые могут исчезнуть из этой местности.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-028",
+    "unit": 2,
+    "en": "impact",
+    "ru": [
+      "воздействие",
+      "влияние"
+    ],
+    "page": 33,
+    "pos": "n",
+    "priority": true,
+    "example": "The change had a negative impact.",
+    "exampleRu": "Это изменение оказало отрицательное воздействие.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-029",
+    "unit": 2,
+    "en": "worldwide",
+    "ru": [
+      "по всему миру",
+      "всемирный"
+    ],
+    "page": 30,
+    "pos": "adv",
+    "priority": false,
+    "example": "The problem affects farmers worldwide.",
+    "exampleRu": "Эта проблема затрагивает фермеров по всему миру.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-030",
+    "unit": 2,
+    "en": "orchard",
+    "ru": [
+      "фруктовый сад"
+    ],
+    "page": 33,
+    "pos": "n",
+    "priority": true,
+    "example": "They planted apple trees in the orchard.",
+    "exampleRu": "Они посадили яблони во фруктовом саду.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-031",
+    "unit": 2,
+    "en": "greenhouse gas",
+    "ru": [
+      "парниковый газ"
+    ],
+    "page": 34,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Carbon dioxide is a greenhouse gas.",
+    "exampleRu": "Углекислый газ — это парниковый газ.",
+    "note": "",
+    "aliases": [
+      "greenhouse gases"
+    ]
+  },
+  {
+    "id": "u2-032",
+    "unit": 2,
+    "en": "large industrial farms",
+    "ru": [
+      "крупные промышленные фермы",
+      "крупные промышленные хозяйства"
+    ],
+    "page": 33,
+    "pos": "phrase",
+    "priority": false,
+    "example": "Large industrial farms can change local habitats.",
+    "exampleRu": "Крупные промышленные фермы могут изменять местные среды обитания.",
+    "note": "",
+    "aliases": [
+      "large industrial farm"
+    ]
+  },
+  {
+    "id": "u2-033",
+    "unit": 2,
+    "en": "analyse",
+    "ru": [
+      "анализировать"
+    ],
+    "page": 36,
+    "pos": "v",
+    "priority": true,
+    "example": "Analyse the results before you write.",
+    "exampleRu": "Проанализируй результаты перед написанием текста.",
+    "note": "",
+    "aliases": [
+      "analyze"
+    ]
+  },
+  {
+    "id": "u2-034",
+    "unit": 2,
+    "en": "analysis",
+    "ru": [
+      "анализ"
+    ],
+    "page": 36,
+    "pos": "n",
+    "priority": true,
+    "example": "The analysis revealed a problem.",
+    "exampleRu": "Анализ выявил проблему.",
+    "note": "Analyse — действие; analysis — сам анализ; analyst — человек. Множественное: analyses.",
+    "aliases": []
+  },
+  {
+    "id": "u2-035",
+    "unit": 2,
+    "en": "analyst",
+    "ru": [
+      "аналитик"
+    ],
+    "page": 36,
+    "pos": "n",
+    "priority": true,
+    "example": "The analyst studied the results.",
+    "exampleRu": "Аналитик изучил результаты.",
+    "note": "Существительное со значением лица из упражнения на стр. 36.",
+    "aliases": []
+  },
+  {
+    "id": "u2-036",
+    "unit": 2,
+    "en": "identify",
+    "ru": [
+      "определять",
+      "выявлять",
+      "распознавать"
+    ],
+    "page": 36,
+    "pos": "v",
+    "priority": true,
+    "example": "Identify the main cause of the problem.",
+    "exampleRu": "Определи главную причину проблемы.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-037",
+    "unit": 2,
+    "en": "identification",
+    "ru": [
+      "выявление",
+      "идентификация",
+      "определение"
+    ],
+    "page": 36,
+    "pos": "n",
+    "priority": true,
+    "example": "The identification of this species was difficult.",
+    "exampleRu": "Определение этого вида было сложным.",
+    "note": "Существительное из упражнения на стр. 36: identify → identification.",
+    "aliases": []
+  },
+  {
+    "id": "u2-038",
+    "unit": 2,
+    "en": "as many as",
+    "ru": [
+      "целых",
+      "вплоть до"
+    ],
+    "page": 36,
+    "pos": "phrase",
+    "priority": true,
+    "example": "As many as fifty students joined.",
+    "exampleRu": "Присоединилось целых пятьдесят студентов.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-039",
+    "unit": 2,
+    "en": "in all",
+    "ru": [
+      "всего",
+      "в общей сложности"
+    ],
+    "page": 36,
+    "pos": "phrase",
+    "priority": true,
+    "example": "There were twenty examples in all.",
+    "exampleRu": "Всего было двадцать примеров.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-040",
+    "unit": 2,
+    "en": "be thought to be",
+    "ru": [
+      "считаться",
+      "предположительно быть"
+    ],
+    "page": 36,
+    "pos": "phrase",
+    "priority": true,
+    "example": "The number is thought to be increasing.",
+    "exampleRu": "Считается, что это число растёт.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-041",
+    "unit": 2,
+    "en": "carbon cycle",
+    "ru": [
+      "углеродный цикл",
+      "круговорот углерода"
+    ],
+    "page": 26,
+    "pos": "phrase",
+    "priority": false,
+    "example": "The diagram shows the carbon cycle.",
+    "exampleRu": "Схема показывает круговорот углерода.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-042",
+    "unit": 2,
+    "en": "photosynthesis",
+    "ru": [
+      "фотосинтез"
+    ],
+    "page": 26,
+    "pos": "n",
+    "priority": false,
+    "example": "Plants use light in photosynthesis.",
+    "exampleRu": "Растения используют свет при фотосинтезе.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-043",
+    "unit": 2,
+    "en": "respiration",
+    "ru": [
+      "дыхание"
+    ],
+    "page": 26,
+    "pos": "n",
+    "priority": false,
+    "example": "Respiration is part of the carbon cycle.",
+    "exampleRu": "Дыхание — часть круговорота углерода.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-044",
+    "unit": 2,
+    "en": "combustion",
+    "ru": [
+      "сгорание",
+      "горение"
+    ],
+    "page": 26,
+    "pos": "n",
+    "priority": false,
+    "example": "Combustion releases carbon dioxide.",
+    "exampleRu": "При сгорании выделяется углекислый газ.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-045",
+    "unit": 2,
+    "en": "decomposition",
+    "ru": [
+      "разложение"
+    ],
+    "page": 26,
+    "pos": "n",
+    "priority": false,
+    "example": "Decomposition returns carbon to the environment.",
+    "exampleRu": "Разложение возвращает углерод в окружающую среду.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-046",
+    "unit": 2,
+    "en": "fossil fuels",
+    "ru": [
+      "ископаемое топливо"
+    ],
+    "page": 26,
+    "pos": "phrase",
+    "priority": false,
+    "example": "Coal and oil are fossil fuels.",
+    "exampleRu": "Уголь и нефть — ископаемое топливо.",
+    "note": "",
+    "aliases": [
+      "fossil fuel"
+    ]
+  },
+  {
+    "id": "u2-047",
+    "unit": 2,
+    "en": "diffusion",
+    "ru": [
+      "диффузия"
+    ],
+    "page": 26,
+    "pos": "n",
+    "priority": false,
+    "example": "Diffusion moves substances between areas.",
+    "exampleRu": "Диффузия перемещает вещества между областями.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-048",
+    "unit": 2,
+    "en": "relevance",
+    "ru": [
+      "соответствие теме",
+      "уместность"
+    ],
+    "page": 29,
+    "pos": "n",
+    "priority": true,
+    "example": "Check the relevance of the text.",
+    "exampleRu": "Проверь, соответствует ли текст теме.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-049",
+    "unit": 2,
+    "en": "confirm",
+    "ru": [
+      "подтверждать"
+    ],
+    "page": 33,
+    "pos": "v",
+    "priority": true,
+    "example": "The research confirmed the problem.",
+    "exampleRu": "Исследование подтвердило проблему.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-050",
+    "unit": 2,
+    "en": "seriousness",
+    "ru": [
+      "серьёзность"
+    ],
+    "page": 33,
+    "pos": "n",
+    "priority": true,
+    "example": "They recognised the seriousness of the situation.",
+    "exampleRu": "Они осознали серьёзность ситуации.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-051",
+    "unit": 2,
+    "en": "result in",
+    "ru": [
+      "приводить к"
+    ],
+    "page": 33,
+    "pos": "phrase",
+    "priority": true,
+    "example": "This change may result in fewer bees.",
+    "exampleRu": "Это изменение может привести к уменьшению числа пчёл.",
+    "note": "Result in + результат: приводить к чему-либо.",
+    "aliases": []
+  },
+  {
+    "id": "u2-052",
+    "unit": 2,
+    "en": "replace",
+    "ru": [
+      "заменять"
+    ],
+    "page": 33,
+    "pos": "v",
+    "priority": false,
+    "example": "Can another method replace this process?",
+    "exampleRu": "Может ли другой метод заменить этот процесс?",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-053",
+    "unit": 2,
+    "en": "solution",
+    "ru": [
+      "решение проблемы"
+    ],
+    "page": 34,
+    "pos": "n",
+    "priority": true,
+    "example": "We need a solution to the problem.",
+    "exampleRu": "Нам нужно решение проблемы.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-054",
+    "unit": 2,
+    "en": "seed",
+    "ru": [
+      "семя"
+    ],
+    "page": 29,
+    "pos": "n",
+    "priority": false,
+    "example": "A seed can grow into a new plant.",
+    "exampleRu": "Из семени может вырасти новое растение.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u2-055",
+    "unit": 2,
+    "en": "relationship",
+    "ru": [
+      "взаимосвязь",
+      "отношение"
+    ],
+    "page": 29,
+    "pos": "n",
+    "priority": false,
+    "example": "Study the relationship between plants and insects.",
+    "exampleRu": "Изучи взаимосвязь между растениями и насекомыми.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-001",
+    "unit": 3,
+    "en": "indication",
+    "ru": [
+      "признак",
+      "показатель"
+    ],
+    "page": 52,
+    "pos": "n",
+    "priority": true,
+    "example": "This is an indication of economic change.",
+    "exampleRu": "Это признак экономических изменений.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-002",
+    "unit": 3,
+    "en": "indicate",
+    "ru": [
+      "указывать",
+      "свидетельствовать"
+    ],
+    "page": 52,
+    "pos": "v",
+    "priority": true,
+    "example": "The figures indicate a fall in output.",
+    "exampleRu": "Данные указывают на снижение объёма производства.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-003",
+    "unit": 3,
+    "en": "trend",
+    "ru": [
+      "тенденция"
+    ],
+    "page": 50,
+    "pos": "n",
+    "priority": true,
+    "example": "The graph shows a clear trend.",
+    "exampleRu": "График показывает явную тенденцию.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-004",
+    "unit": 3,
+    "en": "recession",
+    "ru": [
+      "рецессия",
+      "экономический спад"
+    ],
+    "page": 42,
+    "pos": "n",
+    "priority": true,
+    "example": "Employment fell during the recession.",
+    "exampleRu": "Во время экономического спада занятость снизилась.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-005",
+    "unit": 3,
+    "en": "depression",
+    "ru": [
+      "экономическая депрессия",
+      "глубокий экономический спад"
+    ],
+    "page": 42,
+    "pos": "n",
+    "priority": true,
+    "example": "The depression affected many businesses.",
+    "exampleRu": "Экономическая депрессия затронула много предприятий.",
+    "note": "В этом юните — глубокий экономический спад, не эмоциональное состояние.",
+    "aliases": []
+  },
+  {
+    "id": "u3-006",
+    "unit": 3,
+    "en": "entrepreneur",
+    "ru": [
+      "предприниматель"
+    ],
+    "page": 43,
+    "pos": "n",
+    "priority": true,
+    "example": "The entrepreneur started a new company.",
+    "exampleRu": "Предприниматель создал новую компанию.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-007",
+    "unit": 3,
+    "en": "capital",
+    "ru": [
+      "капитал"
+    ],
+    "page": 43,
+    "pos": "n",
+    "priority": true,
+    "example": "The company needs capital to expand.",
+    "exampleRu": "Компании нужен капитал для расширения.",
+    "note": "Здесь деньги/ресурсы для бизнеса, не столица и не заглавная буква.",
+    "aliases": []
+  },
+  {
+    "id": "u3-008",
+    "unit": 3,
+    "en": "output",
+    "ru": [
+      "объём производства",
+      "выпуск продукции"
+    ],
+    "page": 43,
+    "pos": "n",
+    "priority": true,
+    "example": "Factory output increased last year.",
+    "exampleRu": "Объём производства завода вырос в прошлом году.",
+    "note": "Здесь выпуск продукции или объём производства, не вывод программы.",
+    "aliases": []
+  },
+  {
+    "id": "u3-009",
+    "unit": 3,
+    "en": "income",
+    "ru": [
+      "доход"
+    ],
+    "page": 43,
+    "pos": "n",
+    "priority": true,
+    "example": "Her income comes from two jobs.",
+    "exampleRu": "Её доход складывается из заработка на двух работах.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-010",
+    "unit": 3,
+    "en": "wealth",
+    "ru": [
+      "богатство",
+      "состояние"
+    ],
+    "page": 43,
+    "pos": "n",
+    "priority": true,
+    "example": "Wealth and income are not the same thing.",
+    "exampleRu": "Богатство и доход — не одно и то же.",
+    "note": "Богатство / накопленное состояние. Income — поступающий доход.",
+    "aliases": []
+  },
+  {
+    "id": "u3-011",
+    "unit": 3,
+    "en": "stock market",
+    "ru": [
+      "фондовый рынок",
+      "рынок акций"
+    ],
+    "page": 43,
+    "pos": "phrase",
+    "priority": true,
+    "example": "The stock market fell sharply.",
+    "exampleRu": "Фондовый рынок резко упал.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-012",
+    "unit": 3,
+    "en": "stock market crash",
+    "ru": [
+      "обвал фондового рынка",
+      "биржевой крах"
+    ],
+    "page": 44,
+    "pos": "phrase",
+    "priority": true,
+    "example": "A stock market crash can affect investment.",
+    "exampleRu": "Обвал фондового рынка может повлиять на инвестиции.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-013",
+    "unit": 3,
+    "en": "inflation",
+    "ru": [
+      "инфляция"
+    ],
+    "page": 43,
+    "pos": "n",
+    "priority": true,
+    "example": "Inflation means a general rise in prices.",
+    "exampleRu": "Инфляция означает общее повышение цен.",
+    "note": "Общий рост цен. Deflation — общее снижение цен.",
+    "aliases": []
+  },
+  {
+    "id": "u3-014",
+    "unit": 3,
+    "en": "deflation",
+    "ru": [
+      "дефляция"
+    ],
+    "page": 43,
+    "pos": "n",
+    "priority": true,
+    "example": "Deflation involves a general fall in prices.",
+    "exampleRu": "Дефляция предполагает общее снижение цен.",
+    "note": "Общее снижение цен. Не просто замедление роста цен.",
+    "aliases": []
+  },
+  {
+    "id": "u3-015",
+    "unit": 3,
+    "en": "workforce",
+    "ru": [
+      "рабочая сила",
+      "трудовые ресурсы"
+    ],
+    "page": 43,
+    "pos": "n",
+    "priority": true,
+    "example": "The country has a skilled workforce.",
+    "exampleRu": "В стране есть квалифицированная рабочая сила.",
+    "note": "",
+    "aliases": [
+      "work force"
+    ]
+  },
+  {
+    "id": "u3-016",
+    "unit": 3,
+    "en": "natural resources",
+    "ru": [
+      "природные ресурсы"
+    ],
+    "page": 43,
+    "pos": "phrase",
+    "priority": false,
+    "example": "The region has many natural resources.",
+    "exampleRu": "В регионе много природных ресурсов.",
+    "note": "",
+    "aliases": [
+      "natural resource"
+    ]
+  },
+  {
+    "id": "u3-017",
+    "unit": 3,
+    "en": "employment",
+    "ru": [
+      "занятость",
+      "трудоустройство"
+    ],
+    "page": 44,
+    "pos": "n",
+    "priority": true,
+    "example": "Employment rose as new factories opened.",
+    "exampleRu": "Занятость выросла с открытием новых заводов.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-018",
+    "unit": 3,
+    "en": "unemployment",
+    "ru": [
+      "безработица"
+    ],
+    "page": 49,
+    "pos": "n",
+    "priority": true,
+    "example": "Unemployment is a major concern.",
+    "exampleRu": "Безработица вызывает серьёзную обеспокоенность.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-019",
+    "unit": 3,
+    "en": "youth unemployment",
+    "ru": [
+      "молодёжная безработица",
+      "безработица среди молодёжи"
+    ],
+    "page": 49,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Youth unemployment has increased.",
+    "exampleRu": "Молодёжная безработица выросла.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-020",
+    "unit": 3,
+    "en": "economic recovery",
+    "ru": [
+      "восстановление экономики",
+      "экономическое восстановление"
+    ],
+    "page": 44,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Economic recovery was slow.",
+    "exampleRu": "Восстановление экономики шло медленно.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-021",
+    "unit": 3,
+    "en": "economic disaster",
+    "ru": [
+      "экономическая катастрофа"
+    ],
+    "page": 44,
+    "pos": "phrase",
+    "priority": false,
+    "example": "The crisis became an economic disaster.",
+    "exampleRu": "Кризис превратился в экономическую катастрофу.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-022",
+    "unit": 3,
+    "en": "financial crisis",
+    "ru": [
+      "финансовый кризис"
+    ],
+    "page": 52,
+    "pos": "phrase",
+    "priority": true,
+    "example": "The financial crisis affected banks.",
+    "exampleRu": "Финансовый кризис затронул банки.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-023",
+    "unit": 3,
+    "en": "production",
+    "ru": [
+      "производство"
+    ],
+    "page": 44,
+    "pos": "n",
+    "priority": false,
+    "example": "Production fell during the crisis.",
+    "exampleRu": "Во время кризиса производство сократилось.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-024",
+    "unit": 3,
+    "en": "potential",
+    "ru": [
+      "потенциал",
+      "потенциальный"
+    ],
+    "page": 43,
+    "pos": "n/adj",
+    "priority": true,
+    "example": "The economy has potential for growth.",
+    "exampleRu": "У экономики есть потенциал роста.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-025",
+    "unit": 3,
+    "en": "prosperous",
+    "ru": [
+      "процветающий",
+      "благополучный"
+    ],
+    "page": 44,
+    "pos": "adj",
+    "priority": true,
+    "example": "The region became more prosperous.",
+    "exampleRu": "Регион стал более процветающим.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-026",
+    "unit": 3,
+    "en": "profitable",
+    "ru": [
+      "прибыльный",
+      "рентабельный"
+    ],
+    "page": 44,
+    "pos": "adj",
+    "priority": true,
+    "example": "The business is now profitable.",
+    "exampleRu": "Теперь бизнес приносит прибыль.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-027",
+    "unit": 3,
+    "en": "consequences",
+    "ru": [
+      "последствия"
+    ],
+    "page": 43,
+    "pos": "n",
+    "priority": true,
+    "example": "Consider the consequences of the decision.",
+    "exampleRu": "Обдумай последствия решения.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-028",
+    "unit": 3,
+    "en": "decade",
+    "ru": [
+      "десятилетие"
+    ],
+    "page": 43,
+    "pos": "n",
+    "priority": false,
+    "example": "The economy changed over the decade.",
+    "exampleRu": "Экономика изменилась за десятилетие.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-029",
+    "unit": 3,
+    "en": "lack",
+    "ru": [
+      "нехватка",
+      "недостаток"
+    ],
+    "page": 49,
+    "pos": "n",
+    "priority": false,
+    "example": "A lack of experience can make finding work harder.",
+    "exampleRu": "Недостаток опыта может затруднять поиск работы.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-030",
+    "unit": 3,
+    "en": "labour market",
+    "ru": [
+      "рынок труда"
+    ],
+    "page": 49,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Graduates are entering the labour market.",
+    "exampleRu": "Выпускники выходят на рынок труда.",
+    "note": "",
+    "aliases": [
+      "labor market"
+    ]
+  },
+  {
+    "id": "u3-031",
+    "unit": 3,
+    "en": "foothold",
+    "ru": [
+      "возможность закрепиться",
+      "прочная позиция"
+    ],
+    "page": 49,
+    "pos": "n",
+    "priority": true,
+    "example": "The training gave her a foothold in the labour market.",
+    "exampleRu": "Обучение дало ей возможность закрепиться на рынке труда.",
+    "note": "В тексте о трудоустройстве — возможность закрепиться на рынке труда.",
+    "aliases": []
+  },
+  {
+    "id": "u3-032",
+    "unit": 3,
+    "en": "out of work",
+    "ru": [
+      "без работы",
+      "безработный"
+    ],
+    "page": 49,
+    "pos": "phrase",
+    "priority": true,
+    "example": "He has been out of work for a month.",
+    "exampleRu": "Он уже месяц без работы.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-033",
+    "unit": 3,
+    "en": "apprenticeship",
+    "ru": [
+      "производственное обучение",
+      "ученичество"
+    ],
+    "page": 49,
+    "pos": "n",
+    "priority": true,
+    "example": "An apprenticeship combines work and training.",
+    "exampleRu": "Производственное обучение объединяет работу и подготовку.",
+    "note": "Обучение профессии через работу с более опытным человеком; не любая стажировка.",
+    "aliases": []
+  },
+  {
+    "id": "u3-034",
+    "unit": 3,
+    "en": "smooth transition",
+    "ru": [
+      "плавный переход"
+    ],
+    "page": 49,
+    "pos": "phrase",
+    "priority": true,
+    "example": "The course supports a smooth transition to work.",
+    "exampleRu": "Курс способствует плавному переходу к работе.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-035",
+    "unit": 3,
+    "en": "prospects",
+    "ru": [
+      "перспективы"
+    ],
+    "page": 49,
+    "pos": "n",
+    "priority": true,
+    "example": "Education can improve your career prospects.",
+    "exampleRu": "Образование может улучшить твои карьерные перспективы.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-036",
+    "unit": 3,
+    "en": "prolonged",
+    "ru": [
+      "продолжительный",
+      "затяжной"
+    ],
+    "page": 49,
+    "pos": "adj",
+    "priority": true,
+    "example": "Prolonged unemployment can affect confidence.",
+    "exampleRu": "Затяжная безработица может повлиять на уверенность в себе.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-037",
+    "unit": 3,
+    "en": "recover",
+    "ru": [
+      "восстанавливаться"
+    ],
+    "page": 49,
+    "pos": "v",
+    "priority": true,
+    "example": "The economy began to recover.",
+    "exampleRu": "Экономика начала восстанавливаться.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-038",
+    "unit": 3,
+    "en": "rise",
+    "ru": [
+      "расти",
+      "повышаться"
+    ],
+    "page": 50,
+    "pos": "v",
+    "priority": true,
+    "example": "Prices rose last month.",
+    "exampleRu": "Цены выросли в прошлом месяце.",
+    "note": "Неправильный глагол: rise → rose → risen. Rise by — на сколько; rise to — до какого уровня.",
+    "aliases": [
+      "rise"
+    ]
+  },
+  {
+    "id": "u3-039",
+    "unit": 3,
+    "en": "increase",
+    "ru": [
+      "увеличиваться",
+      "рост",
+      "увеличение"
+    ],
+    "page": 50,
+    "pos": "v/n",
+    "priority": true,
+    "example": "The number increased by ten percent.",
+    "exampleRu": "Число увеличилось на десять процентов.",
+    "note": "Increase by 10% — увеличиться на 10%; increase to 10% — увеличиться до 10%.",
+    "aliases": []
+  },
+  {
+    "id": "u3-040",
+    "unit": 3,
+    "en": "climb",
+    "ru": [
+      "расти",
+      "подниматься"
+    ],
+    "page": 50,
+    "pos": "v",
+    "priority": true,
+    "example": "Unemployment climbed sharply.",
+    "exampleRu": "Безработица резко выросла.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-041",
+    "unit": 3,
+    "en": "decrease",
+    "ru": [
+      "уменьшаться",
+      "снижение",
+      "уменьшение"
+    ],
+    "page": 50,
+    "pos": "v/n",
+    "priority": true,
+    "example": "Costs decreased gradually.",
+    "exampleRu": "Расходы постепенно уменьшились.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-042",
+    "unit": 3,
+    "en": "decline",
+    "ru": [
+      "снижаться",
+      "спад",
+      "снижение"
+    ],
+    "page": 44,
+    "pos": "v/n",
+    "priority": true,
+    "example": "Output began to decline.",
+    "exampleRu": "Объём производства начал снижаться.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-043",
+    "unit": 3,
+    "en": "fall",
+    "ru": [
+      "падать",
+      "снижаться"
+    ],
+    "page": 50,
+    "pos": "v",
+    "priority": true,
+    "example": "The figure fell to ten percent.",
+    "exampleRu": "Показатель упал до десяти процентов.",
+    "note": "Неправильный глагол: fall → fell → fallen.",
+    "aliases": [
+      "fall"
+    ]
+  },
+  {
+    "id": "u3-044",
+    "unit": 3,
+    "en": "drop",
+    "ru": [
+      "падение",
+      "снижение"
+    ],
+    "page": 50,
+    "pos": "n",
+    "priority": true,
+    "example": "There was a sudden drop in income.",
+    "exampleRu": "Произошло внезапное падение доходов.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-045",
+    "unit": 3,
+    "en": "gradually",
+    "ru": [
+      "постепенно"
+    ],
+    "page": 50,
+    "pos": "adv",
+    "priority": true,
+    "example": "Employment increased gradually.",
+    "exampleRu": "Занятость увеличивалась постепенно.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-046",
+    "unit": 3,
+    "en": "steadily",
+    "ru": [
+      "равномерно",
+      "устойчиво"
+    ],
+    "page": 50,
+    "pos": "adv",
+    "priority": true,
+    "example": "Output grew steadily.",
+    "exampleRu": "Объём производства устойчиво рос.",
+    "note": "Steady — прилагательное; steadily — наречие. Steady growth / grow steadily.",
+    "aliases": []
+  },
+  {
+    "id": "u3-047",
+    "unit": 3,
+    "en": "sharply",
+    "ru": [
+      "резко"
+    ],
+    "page": 50,
+    "pos": "adv",
+    "priority": true,
+    "example": "Prices fell sharply.",
+    "exampleRu": "Цены резко упали.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-048",
+    "unit": 3,
+    "en": "dramatically",
+    "ru": [
+      "значительно",
+      "резко",
+      "очень сильно"
+    ],
+    "page": 50,
+    "pos": "adv",
+    "priority": true,
+    "example": "The number changed dramatically.",
+    "exampleRu": "Число значительно изменилось.",
+    "note": "В описании графика — резко / значительно, не «драматично» в театральном смысле.",
+    "aliases": []
+  },
+  {
+    "id": "u3-049",
+    "unit": 3,
+    "en": "slightly",
+    "ru": [
+      "незначительно",
+      "слегка"
+    ],
+    "page": 50,
+    "pos": "adv",
+    "priority": true,
+    "example": "Income rose slightly.",
+    "exampleRu": "Доход немного вырос.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-050",
+    "unit": 3,
+    "en": "suddenly",
+    "ru": [
+      "внезапно"
+    ],
+    "page": 50,
+    "pos": "adv",
+    "priority": true,
+    "example": "The trend changed suddenly.",
+    "exampleRu": "Тенденция изменилась внезапно.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-051",
+    "unit": 3,
+    "en": "slowly",
+    "ru": [
+      "медленно"
+    ],
+    "page": 50,
+    "pos": "adv",
+    "priority": false,
+    "example": "The economy recovered slowly.",
+    "exampleRu": "Экономика восстанавливалась медленно.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-052",
+    "unit": 3,
+    "en": "minimal",
+    "ru": [
+      "минимальный"
+    ],
+    "page": 50,
+    "pos": "adj",
+    "priority": true,
+    "example": "There was a minimal change.",
+    "exampleRu": "Изменение было минимальным.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-053",
+    "unit": 3,
+    "en": "steady",
+    "ru": [
+      "устойчивый",
+      "равномерный"
+    ],
+    "page": 50,
+    "pos": "adj",
+    "priority": true,
+    "example": "The graph shows steady growth.",
+    "exampleRu": "График показывает устойчивый рост.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-054",
+    "unit": 3,
+    "en": "upward trend",
+    "ru": [
+      "тенденция роста",
+      "восходящая тенденция"
+    ],
+    "page": 50,
+    "pos": "phrase",
+    "priority": true,
+    "example": "The figures show an upward trend.",
+    "exampleRu": "Данные показывают тенденцию роста.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-055",
+    "unit": 3,
+    "en": "downward trend",
+    "ru": [
+      "тенденция снижения",
+      "нисходящая тенденция"
+    ],
+    "page": 50,
+    "pos": "phrase",
+    "priority": true,
+    "example": "A downward trend began in May.",
+    "exampleRu": "Тенденция снижения началась в мае.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-056",
+    "unit": 3,
+    "en": "highest point",
+    "ru": [
+      "самая высокая точка",
+      "наивысший уровень"
+    ],
+    "page": 50,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Output reached its highest point in June.",
+    "exampleRu": "Объём производства достиг наивысшего уровня в июне.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-057",
+    "unit": 3,
+    "en": "lowest point",
+    "ru": [
+      "самая низкая точка",
+      "самый низкий уровень"
+    ],
+    "page": 50,
+    "pos": "phrase",
+    "priority": true,
+    "example": "Sales reached their lowest point in winter.",
+    "exampleRu": "Продажи достигли самого низкого уровня зимой.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-058",
+    "unit": 3,
+    "en": "at the beginning",
+    "ru": [
+      "в начале"
+    ],
+    "page": 50,
+    "pos": "phrase",
+    "priority": false,
+    "example": "Prices were low at the beginning of the year.",
+    "exampleRu": "В начале года цены были низкими.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-059",
+    "unit": 3,
+    "en": "simultaneously",
+    "ru": [
+      "одновременно"
+    ],
+    "page": 53,
+    "pos": "adv",
+    "priority": true,
+    "example": "Both figures increased simultaneously.",
+    "exampleRu": "Оба показателя выросли одновременно.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-060",
+    "unit": 3,
+    "en": "interpretation",
+    "ru": [
+      "толкование",
+      "интерпретация"
+    ],
+    "page": 53,
+    "pos": "n",
+    "priority": true,
+    "example": "Your interpretation of the graph is clear.",
+    "exampleRu": "Твоя интерпретация графика понятна.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-061",
+    "unit": 3,
+    "en": "invaluable",
+    "ru": [
+      "чрезвычайно ценный",
+      "неоценимый"
+    ],
+    "page": 53,
+    "pos": "adj",
+    "priority": true,
+    "example": "These notes are invaluable for revision.",
+    "exampleRu": "Эти записи неоценимы для повторения.",
+    "note": "Значит «чрезвычайно ценный», а не «бесполезный» или «ничего не стоящий».",
+    "aliases": []
+  },
+  {
+    "id": "u3-062",
+    "unit": 3,
+    "en": "apparent",
+    "ru": [
+      "очевидный",
+      "явный"
+    ],
+    "page": 53,
+    "pos": "adj",
+    "priority": true,
+    "example": "The difference became apparent.",
+    "exampleRu": "Разница стала очевидной.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-063",
+    "unit": 3,
+    "en": "percentage point",
+    "ru": [
+      "процентный пункт"
+    ],
+    "page": 49,
+    "pos": "phrase",
+    "priority": true,
+    "example": "The rate rose by one percentage point.",
+    "exampleRu": "Показатель вырос на один процентный пункт.",
+    "note": "Из 10% в 11%: +1 процентный пункт. Это не то же самое, что относительный рост на 1%.",
+    "aliases": [
+      "percentage points"
+    ]
+  },
+  {
+    "id": "u3-064",
+    "unit": 3,
+    "en": "rate of inflation",
+    "ru": [
+      "уровень инфляции",
+      "темп инфляции"
+    ],
+    "page": 53,
+    "pos": "phrase",
+    "priority": true,
+    "example": "The rate of inflation fell.",
+    "exampleRu": "Уровень инфляции снизился.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-065",
+    "unit": 3,
+    "en": "consumption",
+    "ru": [
+      "потребление"
+    ],
+    "page": 53,
+    "pos": "n",
+    "priority": true,
+    "example": "Energy consumption increased.",
+    "exampleRu": "Потребление энергии выросло.",
+    "note": "",
+    "aliases": []
+  },
+  {
+    "id": "u3-066",
+    "unit": 3,
+    "en": "invaluable information",
+    "ru": [
+      "неоценимая информация",
+      "чрезвычайно ценная информация"
+    ],
+    "page": 53,
+    "pos": "phrase",
+    "priority": false,
+    "example": "The report provides invaluable information.",
+    "exampleRu": "Отчёт содержит чрезвычайно ценную информацию.",
+    "note": "",
+    "aliases": []
+  }
+];

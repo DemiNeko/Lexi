@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183d36">
+  <meta name="description" content="Lexi — карточки, тесты и практика слов из Units 1–3 Academic English. Учись в своём темпе и возвращайся к сложному.">
+  <title>Lexi — твой Academic English</title>
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('lexi-theme')==='dark'?'dark':'light'}catch(e){}</script>
+  <script defer src="./assets/words.js"></script>
+  <script defer src="./assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <aside class="sidebar">
+    <a class="brand" href="#home" aria-label="Lexi, главная"><span class="brand-mark">l<span>✦</span></span><span>lexi<span class="brand-dot">.</span></span></a>
+    <div class="workspace-label">ТВОЁ МЕСТО ДЛЯ УЧЁБЫ</div>
+    <nav class="side-nav" aria-label="Основная навигация">
+      <button data-view="home"><span data-icon="home"></span>Обзор</button>
+      <button data-view="cards"><span data-icon="cards"></span>Карточки<span class="nav-mini">01</span></button>
+      <button data-view="quiz"><span data-icon="check-square"></span>Тест<span class="nav-mini">02</span></button>
+      <button data-view="typing"><span data-icon="type"></span>Написание<span class="nav-mini">03</span></button>
+      <button data-view="dictionary"><span data-icon="book"></span>Словарь<span class="nav-count" id="nav-count">181</span></button>
+      <button data-view="stats"><span data-icon="chart"></span>Мой прогресс</button>
+    </nav>
+    <div class="sidebar-course"><div class="tiny-tag">ТЕКУЩИЙ КУРС</div><div class="course-title">Academic English<span>B1+</span></div><p>Маленькие шаги.<br>Большой словарный запас.</p><div class="course-bottom"><span>Units 01–03</span><span data-icon="arrow-up-right"></span></div></div>
+    <button class="settings-link" data-action="settings"><span data-icon="sliders"></span>Настройки и данные</button>
+    <div class="local-label"><span class="status-dot"></span>Прогресс на этом устройстве</div>
+  </aside>
+  <div class="main-shell">
+    <header class="topbar"><div class="mobile-brand">lexi<span>.</span></div><div class="breadcrumb">Моя библиотека <span>/</span> <strong>Academic English</strong></div><div class="top-actions"><span class="streak-pill" id="streak-pill"></span><button class="icon-button theme-toggle" data-action="theme" aria-label="Переключить цветовую тему" title="Переключить тему"></button><button class="avatar" data-action="settings" aria-label="Настройки">L</button></div></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="site-footer"><span>Учись понемногу. Вспоминай надолго.</span><span>lexi · independent study companion</span></footer>
+  </div>
+  <nav class="mobile-nav" aria-label="Навигация на телефоне"><button data-view="home"><span data-icon="home"></span><span>Обзор</span></button><button data-view="cards"><span data-icon="cards"></span><span>Карточки</span></button><button data-view="quiz"><span data-icon="check-square"></span><span>Тест</span></button><button data-view="typing"><span data-icon="type"></span><span>Писать</span></button><button data-view="dictionary"><span data-icon="book"></span><span>Словарь</span></button></nav>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="settings-dialog" aria-labelledby="settings-title"></dialog>
+  <input type="file" id="import-file" accept="application/json,.json" hidden>
+  <noscript><div class="no-js">Чтобы карточки работали, включи JavaScript в браузере.</div></noscript>
+</body>
+</html>
