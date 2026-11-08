@@ -4,7 +4,7 @@
   "private": true,
   "description": "Cambridge Academic English Units 3\u20135: reading vocabulary, RU/KK and light/dark themes",
   "scripts": {
-    "test": "node --check assets/app.js && node --check assets/i18n.js && node tests/check.mjs",
+    "test": "node --check assets/home.js && node --check assets/app.js && node --check assets/i18n.js && node tests/check.mjs",
     "build:vocabulary": "node scripts/build-vocabulary.mjs",
     "test:browser": "node tests/browser.cjs"
   }

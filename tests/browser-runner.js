@@ -29,6 +29,39 @@ async function run(){
  try{
  const [words,legacy,previous,readings]=await Promise.all(['../vocabulary.json','fixtures/legacy-vocabulary.json','fixtures/previous-vocabulary.json','../data/readings.json'].map(p=>fetch(p).then(r=>r.json())));
  const active=words.filter(w=>w.readings.length);
+ // Home browsing must not silently change training filters or an active session.
+ seed(makeState([]));await load('home');select('#language-select','ru');
+ const beforeHome=state();
+ assert(doc.querySelectorAll('.home-unit').length===3,'Home shows Units 3, 4 and 5');
+ assert(doc.querySelectorAll('.home-word').length===24,'Each unit starts with eight useful/demanding terms');
+ assert(doc.querySelector('#home-count').textContent.includes('353'),'Shared words counted once');
+ for(const u of [3,4,5]){
+  click('[data-home-unit="'+u+'"] [data-home-action="expand"]');
+  assert(doc.querySelectorAll('[data-home-unit="'+u+'"] .home-word').length===active.filter(w=>w.readingUnits.includes(u)).length,'Full unit available on home '+u);
+ }
+ for(const group of ['key','hard']){
+  select('#home-filter',group);
+  for(const u of [3,4,5]){
+   click('[data-home-unit="'+u+'"] [data-home-action="expand"]');
+   assert(doc.querySelectorAll('[data-home-unit="'+u+'"] .home-word').length===12,'Twelve curated '+group+' terms in Unit '+u);
+  }
+ }
+ select('#home-filter','all');
+ for(const q of ['digital divide','цифровой разрыв','цифрлық алшақтық']){
+  type('#home-search',q);
+  assert(doc.querySelectorAll('.home-word').length===1,'Home searches English/Russian/Kazakh: '+q);
+ }
+ type('#home-search','zzzz-no-result');assert(!doc.querySelector('.home-word'),'Home has an empty result state');
+ type('#home-search','');click('[data-home-action="unit"][data-unit="5"]');
+ assert(doc.querySelectorAll('.home-unit').length===1&&doc.querySelector('[data-home-unit="5"]'),'Home unit filter');
+ eq(state(),beforeHome,'Browsing home does not alter progress or training settings');
+ click('.home-example summary');assert(doc.querySelector('.home-example').open,'Home example expands');
+ const homeId=doc.querySelector('.home-word').dataset.wordId;
+ click('.home-word [data-action="bookmark"]');assert(state().bookmarks.includes(homeId),'Home bookmark uses existing progress');
+ select('#language-select','kk');assert(doc.querySelector('.home-word-label').textContent==='Негізгі сөз','Home localized');
+ click('[data-home-action="unit"][data-unit="0"]');
+ click('.home-word [data-action="practice-word"]');assert(session().baseIds.length===1,'Home word launches existing practice');
+ log('Home: full Units 3–5, 72 curated terms, three-language search, unit/type filters, examples, bookmarks, practice and independent training settings');
  for(const oldWords of [legacy,previous]){
   const old=makeState(oldWords);const saved={mode:'typing',direction:'ru-en',questionDirection:'ru-en',queue:['u1-008','u3-006'],baseIds:['u1-008','u3-006'],cursor:1,history:[{id:'u1-008',correct:true}],mistakes:[],optionIds:[],answered:false,flipped:false,typed:'',started:1792400000000};
   localStorage.setItem('lexi-theme','dark');seed(old,saved);await load('typing');
@@ -53,7 +86,7 @@ async function run(){
   log(`${oldWords.length} old records: IDs, counters, due dates, daily IDs, ${old.bookmarks.length} bookmarks, locale/theme, session resume, old import and mixed export round trip`);
  }
  const empty={version:1,words:{},daily:{},bookmarks:[],settings:{language:'ru'}};seed(empty);await load('home');
- assert(doc.querySelectorAll('.unit-row').length===3,'Three units');
+ assert(doc.querySelectorAll('.home-unit').length===3,'Three units');
  for(const locale of ['ru','kk']){
   select('#language-select',locale);
   for(const w of words){
