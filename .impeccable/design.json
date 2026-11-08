@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T13:30:58.541822+00:00",
+  "title": "Design System: Lexi",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary",
+        "tonalRamp": [
+          "oklch(15% 0.0147 147.87)",
+          "oklch(25% 0.0280 147.87)",
+          "oklch(37% 0.0403 147.87)",
+          "oklch(49% 0.0469 147.87)",
+          "oklch(61% 0.0469 147.87)",
+          "oklch(73% 0.0403 147.87)",
+          "oklch(85% 0.0280 147.87)",
+          "oklch(95% 0.0147 147.87)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Accent Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0134 148.24)",
+          "oklch(25% 0.0254 148.24)",
+          "oklch(37% 0.0365 148.24)",
+          "oklch(49% 0.0425 148.24)",
+          "oklch(61% 0.0425 148.24)",
+          "oklch(73% 0.0365 148.24)",
+          "oklch(85% 0.0254 148.24)",
+          "oklch(95% 0.0134 148.24)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0083 155.31)",
+          "oklch(25% 0.0158 155.31)",
+          "oklch(37% 0.0227 155.31)",
+          "oklch(49% 0.0264 155.31)",
+          "oklch(61% 0.0264 155.31)",
+          "oklch(73% 0.0227 155.31)",
+          "oklch(85% 0.0158 155.31)",
+          "oklch(95% 0.0083 155.31)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0075 151.74)",
+          "oklch(25% 0.0143 151.74)",
+          "oklch(37% 0.0205 151.74)",
+          "oklch(49% 0.0239 151.74)",
+          "oklch(61% 0.0239 151.74)",
+          "oklch(73% 0.0205 151.74)",
+          "oklch(85% 0.0143 151.74)",
+          "oklch(95% 0.0075 151.74)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0018 128.53)",
+          "oklch(25% 0.0033 128.53)",
+          "oklch(37% 0.0048 128.53)",
+          "oklch(49% 0.0056 128.53)",
+          "oklch(61% 0.0056 128.53)",
+          "oklch(73% 0.0048 128.53)",
+          "oklch(85% 0.0033 128.53)",
+          "oklch(95% 0.0018 128.53)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(25% 0.0000 89.88)",
+          "oklch(37% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(73% 0.0000 89.88)",
+          "oklch(85% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0042 134.90)",
+          "oklch(25% 0.0080 134.90)",
+          "oklch(37% 0.0114 134.90)",
+          "oklch(49% 0.0133 134.90)",
+          "oklch(61% 0.0133 134.90)",
+          "oklch(73% 0.0114 134.90)",
+          "oklch(85% 0.0080 134.90)",
+          "oklch(95% 0.0042 134.90)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0059 137.80)",
+          "oklch(25% 0.0112 137.80)",
+          "oklch(37% 0.0160 137.80)",
+          "oklch(49% 0.0187 137.80)",
+          "oklch(61% 0.0187 137.80)",
+          "oklch(73% 0.0160 137.80)",
+          "oklch(85% 0.0112 137.80)",
+          "oklch(95% 0.0059 137.80)"
+        ]
+      },
+      "rail": {
+        "role": "neutral",
+        "displayName": "Rail",
+        "tonalRamp": [
+          "oklch(15% 0.0147 147.87)",
+          "oklch(25% 0.0280 147.87)",
+          "oklch(37% 0.0403 147.87)",
+          "oklch(49% 0.0469 147.87)",
+          "oklch(61% 0.0469 147.87)",
+          "oklch(73% 0.0403 147.87)",
+          "oklch(85% 0.0280 147.87)",
+          "oklch(95% 0.0147 147.87)"
+        ]
+      },
+      "rail-text": {
+        "role": "neutral",
+        "displayName": "Rail Text",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(25% 0.0000 89.88)",
+          "oklch(37% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(73% 0.0000 89.88)",
+          "oklch(85% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "rail-muted": {
+        "role": "neutral",
+        "displayName": "Rail Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0063 138.44)",
+          "oklch(25% 0.0119 138.44)",
+          "oklch(37% 0.0172 138.44)",
+          "oklch(49% 0.0200 138.44)",
+          "oklch(61% 0.0200 138.44)",
+          "oklch(73% 0.0172 138.44)",
+          "oklch(85% 0.0119 138.44)",
+          "oklch(95% 0.0063 138.44)"
+        ]
+      },
+      "active": {
+        "role": "neutral",
+        "displayName": "Active",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(25% 0.0000 89.88)",
+          "oklch(37% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(73% 0.0000 89.88)",
+          "oklch(85% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "active-ink": {
+        "role": "neutral",
+        "displayName": "Active Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0159 149.14)",
+          "oklch(25% 0.0303 149.14)",
+          "oklch(37% 0.0435 149.14)",
+          "oklch(49% 0.0506 149.14)",
+          "oklch(61% 0.0506 149.14)",
+          "oklch(73% 0.0435 149.14)",
+          "oklch(85% 0.0303 149.14)",
+          "oklch(95% 0.0159 149.14)"
+        ]
+      },
+      "success": {
+        "role": "neutral",
+        "displayName": "Success",
+        "tonalRamp": [
+          "oklch(15% 0.0228 149.27)",
+          "oklch(25% 0.0434 149.27)",
+          "oklch(37% 0.0624 149.27)",
+          "oklch(49% 0.0725 149.27)",
+          "oklch(61% 0.0725 149.27)",
+          "oklch(73% 0.0624 149.27)",
+          "oklch(85% 0.0434 149.27)",
+          "oklch(95% 0.0228 149.27)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error",
+        "tonalRamp": [
+          "oklch(15% 0.0405 27.14)",
+          "oklch(25% 0.0771 27.14)",
+          "oklch(37% 0.1107 27.14)",
+          "oklch(49% 0.1288 27.14)",
+          "oklch(61% 0.1288 27.14)",
+          "oklch(73% 0.1107 27.14)",
+          "oklch(85% 0.0771 27.14)",
+          "oklch(95% 0.0405 27.14)"
+        ]
+      },
+      "error-bg": {
+        "role": "neutral",
+        "displayName": "Error Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0041 28.87)",
+          "oklch(25% 0.0078 28.87)",
+          "oklch(37% 0.0112 28.87)",
+          "oklch(49% 0.0130 28.87)",
+          "oklch(61% 0.0130 28.87)",
+          "oklch(73% 0.0112 28.87)",
+          "oklch(85% 0.0078 28.87)",
+          "oklch(95% 0.0041 28.87)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15% 0.0258 130.24)",
+          "oklch(25% 0.0491 130.24)",
+          "oklch(37% 0.0705 130.24)",
+          "oklch(49% 0.0820 130.24)",
+          "oklch(61% 0.0820 130.24)",
+          "oklch(73% 0.0705 130.24)",
+          "oklch(85% 0.0491 130.24)",
+          "oklch(95% 0.0258 130.24)"
+        ]
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "Dark Primary",
+        "tonalRamp": [
+          "oklch(15% 0.0147 147.87)",
+          "oklch(25% 0.0280 147.87)",
+          "oklch(37% 0.0403 147.87)",
+          "oklch(49% 0.0469 147.87)",
+          "oklch(61% 0.0469 147.87)",
+          "oklch(73% 0.0403 147.87)",
+          "oklch(85% 0.0280 147.87)",
+          "oklch(95% 0.0147 147.87)"
+        ]
+      },
+      "dark-accent-hover": {
+        "role": "primary",
+        "displayName": "Dark Accent Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0166 147.46)",
+          "oklch(25% 0.0316 147.46)",
+          "oklch(37% 0.0454 147.46)",
+          "oklch(49% 0.0528 147.46)",
+          "oklch(61% 0.0528 147.46)",
+          "oklch(73% 0.0454 147.46)",
+          "oklch(85% 0.0316 147.46)",
+          "oklch(95% 0.0166 147.46)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0040 130.78)",
+          "oklch(25% 0.0077 130.78)",
+          "oklch(37% 0.0110 130.78)",
+          "oklch(49% 0.0128 130.78)",
+          "oklch(61% 0.0128 130.78)",
+          "oklch(73% 0.0110 130.78)",
+          "oklch(85% 0.0077 130.78)",
+          "oklch(95% 0.0040 130.78)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0091 138.73)",
+          "oklch(25% 0.0173 138.73)",
+          "oklch(37% 0.0249 138.73)",
+          "oklch(49% 0.0289 138.73)",
+          "oklch(61% 0.0289 138.73)",
+          "oklch(73% 0.0249 138.73)",
+          "oklch(85% 0.0173 138.73)",
+          "oklch(95% 0.0091 138.73)"
+        ]
+      },
+      "dark-paper": {
+        "role": "neutral",
+        "displayName": "Dark Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0047 157.43)",
+          "oklch(25% 0.0090 157.43)",
+          "oklch(37% 0.0129 157.43)",
+          "oklch(49% 0.0150 157.43)",
+          "oklch(61% 0.0150 157.43)",
+          "oklch(73% 0.0129 157.43)",
+          "oklch(85% 0.0090 157.43)",
+          "oklch(95% 0.0047 157.43)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Dark Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0069 155.39)",
+          "oklch(25% 0.0131 155.39)",
+          "oklch(37% 0.0189 155.39)",
+          "oklch(49% 0.0219 155.39)",
+          "oklch(61% 0.0219 155.39)",
+          "oklch(73% 0.0189 155.39)",
+          "oklch(85% 0.0131 155.39)",
+          "oklch(95% 0.0069 155.39)"
+        ]
+      },
+      "dark-soft": {
+        "role": "neutral",
+        "displayName": "Dark Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0089 150.59)",
+          "oklch(25% 0.0170 150.59)",
+          "oklch(37% 0.0244 150.59)",
+          "oklch(49% 0.0284 150.59)",
+          "oklch(61% 0.0284 150.59)",
+          "oklch(73% 0.0244 150.59)",
+          "oklch(85% 0.0170 150.59)",
+          "oklch(95% 0.0089 150.59)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark Line",
+        "tonalRamp": [
+          "oklch(15% 0.0091 150.49)",
+          "oklch(25% 0.0172 150.49)",
+          "oklch(37% 0.0248 150.49)",
+          "oklch(49% 0.0288 150.49)",
+          "oklch(61% 0.0288 150.49)",
+          "oklch(73% 0.0248 150.49)",
+          "oklch(85% 0.0172 150.49)",
+          "oklch(95% 0.0091 150.49)"
+        ]
+      },
+      "dark-rail": {
+        "role": "neutral",
+        "displayName": "Dark Rail",
+        "tonalRamp": [
+          "oklch(15% 0.0088 152.63)",
+          "oklch(25% 0.0167 152.63)",
+          "oklch(37% 0.0240 152.63)",
+          "oklch(49% 0.0279 152.63)",
+          "oklch(61% 0.0279 152.63)",
+          "oklch(73% 0.0240 152.63)",
+          "oklch(85% 0.0167 152.63)",
+          "oklch(95% 0.0088 152.63)"
+        ]
+      },
+      "dark-rail-text": {
+        "role": "neutral",
+        "displayName": "Dark Rail Text",
+        "tonalRamp": [
+          "oklch(15% 0.0031 131.36)",
+          "oklch(25% 0.0060 131.36)",
+          "oklch(37% 0.0086 131.36)",
+          "oklch(49% 0.0100 131.36)",
+          "oklch(61% 0.0100 131.36)",
+          "oklch(73% 0.0086 131.36)",
+          "oklch(85% 0.0060 131.36)",
+          "oklch(95% 0.0031 131.36)"
+        ]
+      },
+      "dark-rail-muted": {
+        "role": "neutral",
+        "displayName": "Dark Rail Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0103 138.22)",
+          "oklch(25% 0.0197 138.22)",
+          "oklch(37% 0.0283 138.22)",
+          "oklch(49% 0.0329 138.22)",
+          "oklch(61% 0.0329 138.22)",
+          "oklch(73% 0.0283 138.22)",
+          "oklch(85% 0.0197 138.22)",
+          "oklch(95% 0.0103 138.22)"
+        ]
+      },
+      "dark-active": {
+        "role": "neutral",
+        "displayName": "Dark Active",
+        "tonalRamp": [
+          "oklch(15% 0.0147 147.87)",
+          "oklch(25% 0.0280 147.87)",
+          "oklch(37% 0.0403 147.87)",
+          "oklch(49% 0.0469 147.87)",
+          "oklch(61% 0.0469 147.87)",
+          "oklch(73% 0.0403 147.87)",
+          "oklch(85% 0.0280 147.87)",
+          "oklch(95% 0.0147 147.87)"
+        ]
+      },
+      "dark-active-ink": {
+        "role": "neutral",
+        "displayName": "Dark Active Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(25% 0.0000 89.88)",
+          "oklch(37% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(73% 0.0000 89.88)",
+          "oklch(85% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "dark-success": {
+        "role": "neutral",
+        "displayName": "Dark Success",
+        "tonalRamp": [
+          "oklch(15% 0.0195 139.28)",
+          "oklch(25% 0.0370 139.28)",
+          "oklch(37% 0.0531 139.28)",
+          "oklch(49% 0.0618 139.28)",
+          "oklch(61% 0.0618 139.28)",
+          "oklch(73% 0.0531 139.28)",
+          "oklch(85% 0.0370 139.28)",
+          "oklch(95% 0.0195 139.28)"
+        ]
+      },
+      "dark-error": {
+        "role": "neutral",
+        "displayName": "Dark Error",
+        "tonalRamp": [
+          "oklch(15% 0.0217 27.27)",
+          "oklch(25% 0.0412 27.27)",
+          "oklch(37% 0.0592 27.27)",
+          "oklch(49% 0.0689 27.27)",
+          "oklch(61% 0.0689 27.27)",
+          "oklch(73% 0.0592 27.27)",
+          "oklch(85% 0.0412 27.27)",
+          "oklch(95% 0.0217 27.27)"
+        ]
+      },
+      "dark-error-bg": {
+        "role": "neutral",
+        "displayName": "Dark Error Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0098 25.13)",
+          "oklch(25% 0.0186 25.13)",
+          "oklch(37% 0.0268 25.13)",
+          "oklch(49% 0.0312 25.13)",
+          "oklch(61% 0.0312 25.13)",
+          "oklch(73% 0.0268 25.13)",
+          "oklch(85% 0.0186 25.13)",
+          "oklch(95% 0.0098 25.13)"
+        ]
+      },
+      "dark-focus": {
+        "role": "neutral",
+        "displayName": "Dark Focus",
+        "tonalRamp": [
+          "oklch(15% 0.0268 128.15)",
+          "oklch(25% 0.0509 128.15)",
+          "oklch(37% 0.0731 128.15)",
+          "oklch(49% 0.0851 128.15)",
+          "oklch(61% 0.0851 128.15)",
+          "oklch(73% 0.0731 128.15)",
+          "oklch(85% 0.0509 128.15)",
+          "oklch(95% 0.0268 128.15)"
+        ]
+      },
+      "dark-progress": {
+        "role": "neutral",
+        "displayName": "Dark Progress",
+        "tonalRamp": [
+          "oklch(15% 0.0202 137.35)",
+          "oklch(25% 0.0384 137.35)",
+          "oklch(37% 0.0552 137.35)",
+          "oklch(49% 0.0642 137.35)",
+          "oklch(61% 0.0642 137.35)",
+          "oklch(73% 0.0552 137.35)",
+          "oklch(85% 0.0384 137.35)",
+          "oklch(95% 0.0202 137.35)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page heading."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section heading."
+      },
+      "subtitle": {
+        "displayName": "Subtitle",
+        "purpose": "Subsection heading."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading and UI copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Secondary UI labels."
+      },
+      "annotation": {
+        "displayName": "Annotation",
+        "purpose": "Source provenance and metadata."
+      },
+      "study-word": {
+        "displayName": "Study Word",
+        "purpose": "Primary flashcard word."
+      }
+    },
+    "shadows": [
+      {
+        "name": "dialog-light",
+        "value": "0 18px 60px #16291b26",
+        "purpose": "Settings dialog in light theme."
+      },
+      {
+        "name": "dialog-dark",
+        "value": "0 18px 60px #0005",
+        "purpose": "Settings dialog in dark theme."
+      }
+    ],
+    "motion": [
+      {
+        "name": "content-reveal",
+        "value": ".24s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Clip-path inset from 0 0 3% 0 to 0."
+      },
+      {
+        "name": "toast",
+        "value": "opacity .18s",
+        "purpose": "Status message visibility."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none!important;transition:none!important;scroll-behavior:auto!important",
+        "purpose": "Applies under prefers-reduced-motion:reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1450px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1120px"
+      },
+      {
+        "name": "mobile-navigation-max",
+        "value": "840px"
+      },
+      {
+        "name": "stacked-max",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary button as implemented in the study workspace.",
+      "html": "<button class=\"ds-primary\">Начать</button>",
+      "css": ".ds-primary{font-family:\"Segoe UI\",Arial,sans-serif;font-size:15px;line-height:1.4;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:12px 20px;border:0;border-radius:8px;font-weight:600;background:var(--accent,#4e6851);color:#fff;}.ds-primary:focus-visible{outline:3px solid var(--focus,#58723d);outline-offset:3px}.ds-primary:hover:not(:disabled){filter:brightness(.96)}:host-context([data-theme=dark]) .ds-primary:hover:not(:disabled){filter:brightness(1.13)}.ds-primary:disabled{opacity:.5;cursor:not-allowed}.ds-primary:hover:not(:disabled){background:var(--accent-hover,#3e5541)}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary button as implemented in the study workspace.",
+      "html": "<button class=\"ds-secondary\">Экспорт</button>",
+      "css": ".ds-secondary{font-family:\"Segoe UI\",Arial,sans-serif;font-size:15px;line-height:1.4;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:12px 20px;border:0;border-radius:8px;font-weight:600;background:var(--surface,#fff);color:var(--ink,#243329);border:1px solid var(--line,#ccd5c9);}.ds-secondary:focus-visible{outline:3px solid var(--focus,#58723d);outline-offset:3px}.ds-secondary:hover:not(:disabled){filter:brightness(.96)}:host-context([data-theme=dark]) .ds-secondary:hover:not(:disabled){filter:brightness(1.13)}.ds-secondary:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Ghost button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Ghost button as implemented in the study workspace.",
+      "html": "<button class=\"ds-ghost\">К подборке</button>",
+      "css": ".ds-ghost{font-family:\"Segoe UI\",Arial,sans-serif;font-size:15px;line-height:1.4;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:12px 20px;border:0;border-radius:8px;font-weight:600;background:none;color:var(--muted,#58665b);padding-inline:12px;}.ds-ghost:focus-visible{outline:3px solid var(--focus,#58723d);outline-offset:3px}.ds-ghost:hover:not(:disabled){filter:brightness(.96)}:host-context([data-theme=dark]) .ds-ghost:hover:not(:disabled){filter:brightness(1.13)}.ds-ghost:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Search input",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Labelled dictionary search with an inset inline icon.",
+      "html": "<label class=\"ds-search\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m16 16 5 5\"/></svg><input class=\"ds-search-input\" type=\"search\" aria-label=\"Поиск по словарю\" placeholder=\"Найти слово или перевод…\"></label>",
+      "css": ".ds-search{display:block;position:relative}.ds-search svg{position:absolute;left:14px;top:14px;width:20px;height:20px;fill:none;stroke:var(--muted,#58665b);stroke-width:1.7}.ds-search-input{font-family:\"Segoe UI\",Arial,sans-serif;font-size:15px;min-height:48px;width:100%;border:1px solid var(--line,#ccd5c9);border-radius:8px;padding:12px 14px 12px 44px;background:var(--surface,#fff);color:var(--ink,#243329)}.ds-search-input::placeholder{color:var(--muted,#58665b);opacity:1}.ds-search-input:focus-visible{outline:3px solid var(--focus,#58723d);outline-offset:3px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "Rail navigation with a distinct current location.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Основная навигация\"><button class=\"ds-nav-item\" aria-current=\"page\">Карточки</button><button class=\"ds-nav-item\">Словарь</button></nav>",
+      "css": ".ds-nav{background:var(--rail,#4e6851);color:var(--rail-text,#fff);padding:20px;display:flex;flex-direction:column;gap:6px}.ds-nav-item{font-family:\"Segoe UI\",Arial,sans-serif;font-size:15px;line-height:1.4;cursor:pointer;text-align:left;border:0;color:inherit;background:none;padding:10px 14px;min-height:46px;border-radius:8px;font-weight:550}.ds-nav-item[aria-current]{background:var(--active,#fff);color:var(--active-ink,#304c35)}.ds-nav-item:not([aria-current]):hover{background:#ffffff14}.ds-nav-item:focus-visible{outline:3px solid var(--focus,#58723d);outline-offset:3px}.ds-nav-item:hover:not(:disabled){filter:brightness(.96)}:host-context([data-theme=dark]) .ds-nav-item:hover:not(:disabled){filter:brightness(1.13)}.ds-nav-item:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Filter chip",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Unit filter with an explicit pressed state.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"true\">Unit 03</button>",
+      "css": ".ds-chip{font-family:\"Segoe UI\",Arial,sans-serif;font-size:15px;line-height:1.4;cursor:pointer;min-height:44px;padding:10px 17px;border:1px solid var(--line,#ccd5c9);border-radius:8px;background:var(--surface,#fff);color:var(--ink,#243329);font-size:14px}.ds-chip[aria-pressed=true]{background:var(--accent,#4e6851);border-color:var(--accent,#4e6851);color:#fff}.ds-chip:focus-visible{outline:3px solid var(--focus,#58723d);outline-offset:3px}.ds-chip:hover:not(:disabled){filter:brightness(.96)}:host-context([data-theme=dark]) .ds-chip:hover:not(:disabled){filter:brightness(1.13)}.ds-chip:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Study card",
+      "kind": "card",
+      "refersTo": "flash-card",
+      "description": "Source annotation and prominent study word; the revealed state uses soft.",
+      "html": "<article class=\"ds-card\"><span class=\"ds-card-meta\">Unit 03 · Источник текста</span><h2>academic</h2><button class=\"ds-card-reveal\">Показать перевод</button></article>",
+      "css": ".ds-card{font-family:\"Segoe UI\",Arial,sans-serif;position:relative;display:flex;flex-direction:column;align-items:center;min-height:310px;padding:24px 30px;border:1px solid var(--line,#ccd5c9);border-radius:var(--radius,12px);background:var(--surface,#fff);color:var(--ink,#243329);text-align:center}.ds-card-meta{align-self:start;font-size:11px;line-height:1.65;color:var(--muted,#58665b)}.ds-card h2{font-size:clamp(27px,3.6vw,42px);font-weight:650;line-height:1.25;letter-spacing:-.025em;margin:26px 0 14px;overflow-wrap:anywhere}.ds-card-reveal{font-family:\"Segoe UI\",Arial,sans-serif;font-size:15px;line-height:1.4;cursor:pointer;border:0;background:none;color:var(--muted,#58665b);min-height:44px;margin-top:auto;font-size:12px;padding:20px 0 0}.ds-card.is-revealed{background:var(--soft,#e8eee5)}.ds-card-reveal:focus-visible{outline:3px solid var(--focus,#58723d);outline-offset:3px}.ds-card-reveal:hover:not(:disabled){filter:brightness(.96)}:host-context([data-theme=dark]) .ds-card-reveal:hover:not(:disabled){filter:brightness(1.13)}.ds-card-reveal:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Source-linked word",
+      "kind": "custom",
+      "refersTo": "source-reference",
+      "description": "Expandable dictionary term with wrapping provenance immediately underneath.",
+      "html": "<button class=\"ds-source-word\" aria-expanded=\"false\"><span class=\"ds-source-term\">academic</span><span class=\"ds-source-meta\">Unit 03 · Название текста · стр. 42–45</span></button>",
+      "css": ".ds-source-word{font-family:\"Segoe UI\",Arial,sans-serif;font-size:15px;line-height:1.4;cursor:pointer;text-align:left;min-height:44px;padding:0;border:0;background:none;color:var(--ink,#243329)}.ds-source-term{display:block;font-size:17px;font-weight:600;overflow-wrap:anywhere}.ds-source-meta{display:block;font-size:11px;line-height:1.65;color:var(--muted,#58665b);margin-top:6px}.ds-source-word:focus-visible{outline:3px solid var(--focus,#58723d);outline-offset:3px}.ds-source-word:hover:not(:disabled){filter:brightness(.96)}:host-context([data-theme=dark]) .ds-source-word:hover:not(:disabled){filter:brightness(1.13)}.ds-source-word:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Answer choice",
+      "kind": "button",
+      "refersTo": "answer-option",
+      "description": "Choice with keyed label and correct/wrong feedback variants.",
+      "html": "<button class=\"ds-option\"><span class=\"ds-option-key\">1</span>академический</button>",
+      "css": ".ds-option{font-family:\"Segoe UI\",Arial,sans-serif;font-size:15px;line-height:1.4;cursor:pointer;display:flex;gap:14px;align-items:center;text-align:left;padding:15px;min-height:68px;border:1px solid var(--line,#ccd5c9);border-radius:10px;background:var(--surface,#fff);color:var(--ink,#243329)}.ds-option-key{display:flex;align-items:center;justify-content:center;min-width:28px;height:28px;font-size:12px;color:var(--muted,#58665b);background:var(--soft,#e8eee5);border-radius:6px}.ds-option.correct{border-color:var(--success,#315c3a);background:var(--soft,#e8eee5);color:var(--success,#315c3a)}.ds-option.wrong{border-color:var(--error,#9c3b34);background:var(--error-bg,#fcf0ee);color:var(--error,#9c3b34)}.ds-option:focus-visible{outline:3px solid var(--focus,#58723d);outline-offset:3px}.ds-option:hover:not(:disabled){filter:brightness(.96)}:host-context([data-theme=dark]) .ds-option:hover:not(:disabled){filter:brightness(1.13)}.ds-option:disabled{opacity:.5;cursor:not-allowed}.ds-option:disabled{opacity:1}"
+    },
+    {
+      "name": "Settings dialog",
+      "kind": "custom",
+      "description": "Native modal settings surface; call showModal() for its implemented backdrop.",
+      "html": "<dialog open class=\"ds-dialog\" aria-labelledby=\"ds-dialog-title\"><header class=\"ds-dialog-header\"><h2 id=\"ds-dialog-title\">Твоё пространство</h2><button class=\"ds-dialog-close\" aria-label=\"Закрыть настройки\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m6 6 12 12M18 6 6 18\"/></svg></button></header><p class=\"ds-dialog-copy\">Прогресс сохраняется в этом браузере.</p></dialog>",
+      "css": ".ds-dialog{position:relative;font-family:\"Segoe UI\",Arial,sans-serif;width:min(560px,calc(100% - 28px));max-height:85vh;border:0;border-radius:16px;padding:28px;background:var(--surface,#fff);color:var(--ink,#243329);box-shadow:var(--shadow,0 18px 60px #16291b26)}.ds-dialog::backdrop{background:#101d17a6}.ds-dialog-header{display:flex;justify-content:space-between;align-items:center;gap:14px}.ds-dialog-header h2{font-size:24px;font-weight:650;line-height:1.3;letter-spacing:-.02em;margin:0}.ds-dialog-copy{font-size:13px;color:var(--muted,#58665b);line-height:1.65;margin:10px 0 16px}.ds-dialog-close{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:none;border:0;border-radius:8px;color:var(--ink,#243329);cursor:pointer}.ds-dialog-close svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}.ds-dialog-close:hover{background:var(--soft,#e8eee5);filter:brightness(.96)}.ds-dialog-close:focus-visible{outline:3px solid var(--focus,#58723d);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Reading annotations",
+    "overview": "A calm, practical study workspace connects vocabulary to its source reading. A sage navigation rail, paper surfaces and clear system type give familiar controls a coherent academic character. The user delegated composition while fixing the principal green and retaining light/dark themes and Russian/Kazakh support.\n\nDensity follows the task: compact dictionary rows and source notes surround a generous central study word. Tonal separation and fine borders carry hierarchy; decoration does not compete with reading.",
+    "keyCharacteristics": [
+      "Familiar controls with a clear primary action.",
+      "Paper-like light surfaces and charcoal-green dark surfaces.",
+      "Source references stay adjacent to the vocabulary they explain."
+    ],
+    "rules": [],
+    "dos": [
+      "Do use semantic CSS variables so both themes retain the same hierarchy.",
+      "Do keep unit, reading title and page references with vocabulary; permit wrapping.",
+      "Do retain visible focus, labelled controls and keyboard access in Russian and Kazakh.",
+      "Do let long translations and source titles wrap at narrow widths."
+    ],
+    "donts": [
+      "Don't introduce a separate display font or decorative imagery into study controls.",
+      "Don't communicate correctness with color alone; retain feedback text and icons.",
+      "Don't present reading page ranges as verified page locations for every word.",
+      "Don't animate when reduced motion is requested."
+    ]
+  }
+}

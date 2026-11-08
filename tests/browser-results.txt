@@ -1,0 +1,8 @@
+PASS: 181 old records: IDs, counters, due dates, daily IDs, 61 bookmarks, locale/theme, session resume, old import and mixed export round trip
+PASS: 759 old records: IDs, counters, due dates, daily IDs, 253 bookmarks, locale/theme, session resume, old import and mixed export round trip
+PASS: All 903 cards: RU/KK translations and English aliases; all 353 active cards: four unambiguous quiz options in both directions/locales
+PASS: All 19 source filters, Unit 5 count, three-language search, archived words and archived-word practice
+PASS: Cards / quiz / typing use the chosen Unit 5 text and save real answers
+PASS: Responsive overflow: 320/390/768/1366, both themes, KK home/dictionary/stats/cards; long archived card has no overlap
+PASS: No JavaScript errors
+ALL CHECKS PASSED

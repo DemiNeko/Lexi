@@ -10,3 +10,8 @@ lexi-progress-*.json
 test-export.json
 *.pdf
 *.zip
+
+dist/
+.openai/
+.impeccable/questions/
+.impeccable/cache/
